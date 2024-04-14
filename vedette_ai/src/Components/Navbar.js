@@ -8,9 +8,8 @@ export default function NavBar() {
                 <Link className='nav-link' to='/solution'>Solution</Link>
                 <Link className='nav-link' to='/team'>Team</Link>
                 <Link className='nav-link' to='/milestones'>Milestones</Link>
+                <a className='primary-button nav-button-mods'>VIEW DEMO</a>
             </div>
-            
         </div>
-
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Components/Navbar';
+import Footer from './Components/Footer';
 import SolutionPage from './SolutionPage';
 import TeamPage from './TeamPage';
 import MilestonePage from './MilestonePage';
@@ -11,7 +12,7 @@ function App() {
     <div>
       {/* Navbar */}
       <NavBar />
-
+      
       {/* Page routes */}
       <Routes>
         <Route index element={<SolutionPage />} />
@@ -19,6 +20,9 @@ function App() {
         <Route path='team' element={<TeamPage />} />
         <Route path='milestones' element={<MilestonePage />} />
       </Routes>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
