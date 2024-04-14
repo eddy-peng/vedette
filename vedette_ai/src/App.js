@@ -4,7 +4,7 @@ import NavBar from './Navbar';
 import SolutionPage from './SolutionPage';
 import TeamPage from './TeamPage';
 import MilestonePage from './MilestonePage';
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       {/* Page routes */}
       <Routes>
         <Route index element={<SolutionPage />} />
+        <Route path='solution'element={<SolutionPage />} />
         <Route path='team' element={<TeamPage />} />
         <Route path='milestones' element={<MilestonePage />} />
       </Routes>
