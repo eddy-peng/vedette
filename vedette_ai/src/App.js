@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NavBar from './Navbar';
+import NavBar from './Components/Navbar';
 import SolutionPage from './SolutionPage';
 import TeamPage from './TeamPage';
 import MilestonePage from './MilestonePage';
