@@ -1,4 +1,5 @@
 import React from 'react';
+import ProblemSVG from '../images/Problem.svg';
 
 export default function HeroSection() {
     return (
@@ -11,7 +12,7 @@ export default function HeroSection() {
                     <a className='secondary-button'>LEARN MORE</a>
                 </div>
             </div>
-            <img src='images/Problem.svg'></img>
+            <img className='prob-svg' src={ProblemSVG}></img>
         </section>
     )
 }
