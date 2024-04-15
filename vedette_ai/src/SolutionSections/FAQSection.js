@@ -5,7 +5,7 @@ import { useState } from "react";
 
 // Code from https://github.com/ajaymuktha/React-Accordion/tree/main
 
-export default function HeroSection() {
+export default function FAQs() {
 
     const [questions, setQuestions] = useState(data);
 

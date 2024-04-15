@@ -1,8 +1,9 @@
 import React from 'react';
-import HeroSection from './Sections/HeroSection';
-import ChallengesSection from './Sections/ChallengesSection';
-import FeaturesSection from './Sections/FeaturesSection';
-import FAQSection from './Sections/FAQSection';
+import HeroSection from './SolutionSections/HeroSection';
+import ChallengesSection from './SolutionSections/ChallengesSection';
+import FeaturesSection from './SolutionSections/FeaturesSection';
+import FAQSection from './SolutionSections/FAQSection';
+import FinalCTASection from './SolutionSections/FinalCTASection';
 
 export default function SolutionPage() {
     return ( 
@@ -10,7 +11,8 @@ export default function SolutionPage() {
             <HeroSection />
             <ChallengesSection />
             <FeaturesSection />
-            {/* <FAQSection /> */}
+            <FAQSection />
+            <FinalCTASection />
         </div>
     )
 }

@@ -275,12 +275,13 @@ h3 {
     min-height: 100vh;
     max-height: 300vh;
     padding: 0 300px;
+    align-content: center;
 }
 
 /* Modifed from https://github.com/ajaymuktha/React-Accordion/tree/main */
 .faqs h3 {
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 32px;
 }
@@ -320,9 +321,26 @@ h3 {
     align-self: center;
     background: transparent;
     border-color: transparent;
-
 }
 
+/* Final CTA Section */
+.final-cta {
+    padding: 0 200px;
+    height: 60vh;
+    align-content: center;
+}
+
+.final-cta h3 {
+    text-align: center;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+}
+
+.final-cta .primary-button {
+    width: 200px;
+    margin: 0 auto;
+}
 
 
 /* Footer */
@@ -346,7 +364,6 @@ h3 {
 
 .footer-link {
     color: rgba(255, 255, 255, 1);
-    ;
     text-decoration: none;
     font-weight: 600;
     position: relative;
