@@ -12,7 +12,9 @@ export default function HeroSection() {
                     <a className='secondary-button'>LEARN MORE</a>
                 </div>
             </div>
-            <img className='prob-svg' src={ProblemSVG}></img>
+            <div className="hero-image-container">
+                <img className='prob-svg' src={ProblemSVG}></img>
+            </div>
         </section>
     )
 }

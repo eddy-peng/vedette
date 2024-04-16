@@ -166,6 +166,12 @@ h1 {
     text-align: center;
 }
 
+/* .hero-image-container {
+    background-color: red;
+    padding: 1vh;
+    border-radius: 10px;
+} */
+
 .prob-svg {
     border: 4px solid transparent;
     background-image: linear-gradient(to right, #4285F4, #D6C8FF);
@@ -292,6 +298,11 @@ h3 {
     border-radius: 16px;
     color: rgba(255, 255, 255, 1);
     background-image: linear-gradient(to right, #2F3F68, #1E2A4B);
+    cursor: pointer;
+}
+
+.question:hover {
+    background-image: linear-gradient(to right, #2F3F68, #2F3F68);
 }
 
 .question p {
@@ -317,7 +328,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     align-self: center;
     background: transparent;
     border-color: transparent;

@@ -5,11 +5,11 @@ import React, { useState } from "react";
 export default function Question({ title, info }) { // Capitalized "Question"
   const [showDetails, setShowDetails] = useState(false);
   return (
-    <article className="question">
+    <article className="question" onClick={() => setShowDetails(!showDetails)}>
       <header>
         <h4>{title}</h4>
-        <button className="btn" onClick={() => setShowDetails(!showDetails)}>
-          {showDetails ? <span className="material-icons">add</span> : <span class="material-icons">remove</span>}
+        <button className="btn">
+          {showDetails ? <span class="material-icons">remove</span> : <span className="material-icons">add</span>}
         </button>
       </header>
       {showDetails && <p>{info}</p>}
