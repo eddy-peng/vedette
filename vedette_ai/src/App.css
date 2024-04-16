@@ -134,7 +134,6 @@ section {
     align-items: center;
     gap: 32px;
     padding: 124px 0 0 0;
-    /* height: 80vh; */
 }
 
 .hero-subsection {
@@ -350,6 +349,61 @@ h3 {
 .final-cta .primary-button {
     width: 200px;
     margin: 0 auto;
+}
+
+/* Team Page Intro */
+.team-intro {
+    padding: 124px 0 0 0;
+}
+
+.intro-text {
+    text-align: center;
+}
+.intro-text h3 {
+    font-size: 48px;
+    padding-bottom: 32px;
+}
+.intro-text p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+    max-width: 45%;
+    margin: 0 auto;
+}
+.team-profile-container {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+    justify-content: space-between;
+}
+.team-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.team-profile h4 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 8px;
+}
+.team-profile p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 8px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.7;
+}
+.social-icons img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.icon-container {
+    display: flex;
+    gap: 4px;
 }
 
 
