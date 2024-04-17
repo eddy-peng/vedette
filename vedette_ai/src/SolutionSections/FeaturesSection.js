@@ -2,6 +2,7 @@ import React from 'react';
 import FeatureOneImg from '../images/Feature_1.svg';
 import FeatureTwoImg from '../images/Feature_2.svg';
 import FeatureThreeImg from '../images/Feature_3.svg';
+import FeatureFourImg from '../images/Feature_4.svg';
 
 export default function Features() {
     return (
@@ -11,7 +12,7 @@ export default function Features() {
             </h2>
             <p className='heading-caption'>Integrating AI into the Vulnerability Reward<br></br>Program’s bug reporting form</p>
             <div className='features-box'>
-                <div className='feature-container'>
+                <div className='feature-container feature-container-gradient'>
                     <div className='feature-content'>
                         <p className='feature-num'>FEATURE 01</p>
                         <h3>Compare report content to previously triaged threats</h3>
@@ -22,7 +23,7 @@ export default function Features() {
                     </div>
                 </div>
                 <div className='two-features'>
-                    <div className='feature-container-two'>
+                    <div className='feature-container-two feature-container-gradient'>
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 02</p>
                             <h3>Explore curated historical bug reports with similar content </h3>
@@ -36,10 +37,42 @@ export default function Features() {
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 03</p>
                             <h3>Receive dynamic content similarity updates in real time </h3>
-                            <p className='feature-desc'>BBug Reporters are notified whenever their report passes a similarity threshold, prompting them to learn more about why their report may be a duplicate.</p>
+                            <p className='feature-desc'>Bug Reporters are notified whenever their report passes a similarity threshold, prompting them to learn more about why their report may be a duplicate.</p>
                         </div>
                         <div>
                             <img src={FeatureThreeImg} className='feature-img'></img>
+                        </div>
+                    </div>
+                </div>
+                <div className='three-features'>
+                    <div className='feature-container-three feature-container-gradient'>
+                        <div className='feature-content'>
+                            <p className='feature-num'>FEATURE 04</p>
+                            <h3>Score Guide</h3>
+                            <p className='feature-desc'>Bug Reporters are provided a detailed breakdown of how Vedette calculates similarity scores.</p>
+                        </div>
+                        <div>
+                            <img src={FeatureFourImg} className='feature-img feature-img-center'></img>
+                        </div>
+                    </div>
+                    <div className='feature-container-three'>
+                        <div className='feature-content'>
+                            <p className='feature-num'>FEATURE 05</p>
+                            <h3>View Raw Reports</h3>
+                            <p className='feature-desc'>Bug Reporters can export the report that is apparently similar to their own to conduct further analysis.</p>
+                        </div>
+                        <div>
+                            <img></img>
+                        </div>
+                    </div>
+                    <div className='feature-container-three'>
+                        <div className='feature-content'>
+                            <p className='feature-num'>FEATURE 06</p>
+                            <h3>Progress Upgrades</h3>
+                            <p className='feature-desc'>Bug Reporters can learn more about how AI is scoring their report for transparency.</p>
+                        </div>
+                        <div>
+                            <img></img>
                         </div>
                     </div>
                 </div>

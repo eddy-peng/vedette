@@ -256,18 +256,22 @@ h2 {
     background-color: #121212;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
 }
 
 .feature-container {
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(to right, #121212, #2A3558);
     border-radius: 16px;
+    background-color: #2A3558;
     /* gap: 64px; */
-    padding: 64px 64px;
+    padding: 32px 32px;
     height: 480px;
     overflow: hidden;
+}
+
+.feature-container-gradient {
+    background-image: linear-gradient(to right, #121212, #2A3558);
 }
 
 .feature-container-two {
@@ -275,13 +279,17 @@ h2 {
     flex: 1;
     flex-direction: column;
     gap: 64px;
-    background-image: linear-gradient(to right, #121212, #2A3558);
+    background-color: #2A3558;
     border-radius: 16px;
     /* gap: 64px; */
-    padding: 64px 64px 0px;
-    height: 480px;
+    padding: 32px 32px 0px;
+    height: 780px;
     overflow: hidden;
-    height: auto;
+    margin-right: 20px;
+    /* height: auto; */
+}
+.feature-container-two:last-child {
+    margin-right: 0;
 }
 
 .feature-content {
@@ -319,6 +327,33 @@ h3 {
 .two-features {
     display: flex;
 }
+.three-features {
+    display: flex;
+}
+.feature-container-three {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A3558;
+    border-radius: 16px;
+    padding: 32px 32px 0px;
+    height: 540px;
+    overflow: hidden;
+    margin-right: 20px;
+    /* height: auto; */
+}
+.feature-container-three:last-child {
+    margin-right: 0;
+}
+.feature-img-center {
+    right: 0px;
+    bottom: -10px;
+    width: 99%;
+    border-radius: 4px;
+    border: 1px solid #898888;
+}
+
 
 /* Demo Video Section Styles */
 
@@ -331,11 +366,10 @@ h3 {
 .demo-vid {
     width: 100%;
     height: 100%;
-   border: 4px solid transparent;
-   background-image: linear-gradient(to right, #4285F4, #D6C8FF);
-   border-radius: 10px;
-   margin: 64px 0;
-   box-shadow: 0px 0px 80px rgba(35, 43, 67, 1);
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin: 64px 0;
+    box-shadow: 0px 0px 80px rgba(35, 43, 67, 1);
 }
 
 /* Testing Table Styles */
@@ -344,6 +378,8 @@ h3 {
     flex-direction: column;
     gap: 48px;
     padding-top: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .table-row {
