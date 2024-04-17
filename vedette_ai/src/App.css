@@ -182,7 +182,8 @@ h1 {
 /* Challenges Section Styles */
 
 .page-section {
-    padding: 180px 32px 72px 72px;
+    /* padding: 180px 32px 72px 72px; */
+    padding: 180px 72px 32px 72px;
     background-color: #121212;
 }
 
@@ -245,15 +246,44 @@ h2 {
     padding: 32px 0;
 }
 
+.features-box {
+    padding: 32px 72px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .feature-container {
     display: flex;
     flex-direction: row;
+    background-image: linear-gradient(to right, #121212, #2A3558);
+    border-radius: 16px;
+    /* gap: 64px; */
+    padding: 64px 64px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.feature-container-two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 64px;
+    background-image: linear-gradient(to right, #121212, #2A3558);
+    border-radius: 16px;
+    /* gap: 64px; */
+    padding: 64px 64px 0px;
+    height: 480px;
+    overflow: hidden;
+    height: auto;
 }
 
 .feature-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    flex: 1;
 }
 
 .feature-num {
@@ -269,10 +299,124 @@ h2 {
     color: rgba(255, 255, 255, .7);
 }
 
+.feature-img {
+   flex: 1;
+   position: relative;
+   right: -100px;
+}
+
 h3 {
     font-size: 32px;
     font-weight: 600;
     color:rgba(255, 255, 255, 1);
+}
+
+.two-features {
+    display: flex;
+}
+
+/* Demo Video Section Styles */
+
+.demo-container {
+    display: flex;
+    height: 80vh;
+    padding: 0 72px;
+}
+
+.demo-vid {
+    width: 100%;
+    height: 100%;
+   border: 4px solid transparent;
+   background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+   border-radius: 10px;
+   margin: 64px 0;
+   box-shadow: 0px 0px 80px rgba(35, 43, 67, 1);
+}
+
+/* Testing Table Styles */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 72px;
+}
+
+.table-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+}
+
+.row-desc {
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 300;
+    flex: 2;
+}
+
+.row-tester {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+}
+.row-tester-human {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+
+}
+
+.table-line {
+    border-color: rgba(255, 255, 255, .6);
+    width: 100%;
+}
+
+.row-title {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    flex: 1;
+    align-content: flex-start;
+}
+
+.col-heading {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .7);
+    flex: 1;
+}
+
+.col-heading-desc {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .7);
+    flex: 2;
+}
+
+.col-heading-vedette {
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+    /* Gradient as background */
+    background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    flex: 1;
+}
+
+.help-icon:hover {
+    cursor: default;
+    background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+    background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
 }
 
 /* FAQs Section Styles */
@@ -281,6 +425,7 @@ h3 {
     max-height: 300vh;
     padding: 0 300px;
     align-content: center;
+    padding-top: 180px;
 }
 
 /* Modifed from https://github.com/ajaymuktha/React-Accordion/tree/main */
