@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     background-color: #121212;
 }
@@ -92,6 +96,7 @@ section {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .primary-button:hover {

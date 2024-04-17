@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DemoVideo() {
     return (
-        <section className='page-section'>
+        <section id='demo-vid' className='page-section'>
             <h2>See Vedette In Action</h2>
             <div className='demo-container'>  
                 <iframe 
