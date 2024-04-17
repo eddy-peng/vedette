@@ -292,6 +292,7 @@ h2 {
     margin-right: 20px;
     /* height: auto; */
 }
+
 .feature-container-two:last-child {
     margin-right: 0;
 }
@@ -317,23 +318,25 @@ h2 {
 }
 
 .feature-img {
-   flex: 1;
-   position: relative;
-   right: -100px;
+    flex: 1;
+    position: relative;
+    right: -100px;
 }
 
 h3 {
     font-size: 32px;
     font-weight: 600;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .two-features {
     display: flex;
 }
+
 .three-features {
     display: flex;
 }
+
 .feature-container-three {
     display: flex;
     flex: 1;
@@ -347,9 +350,11 @@ h3 {
     margin-right: 20px;
     /* height: auto; */
 }
+
 .feature-container-three:last-child {
     margin-right: 0;
 }
+
 .feature-img-center {
     right: 0px;
     bottom: -10px;
@@ -406,6 +411,7 @@ h3 {
     color: rgba(255, 255, 255, 1);
     flex: 1;
 }
+
 .row-tester-human {
     font-family: 'Roboto Mono';
     font-size: 18px;
@@ -549,16 +555,19 @@ h3 {
 .intro-text {
     text-align: center;
 }
+
 .intro-text h3 {
     font-size: 48px;
     padding-bottom: 32px;
 }
+
 .intro-text p {
     font-size: 16px;
     color: rgba(255, 255, 255, .7);
     max-width: 45%;
     margin: 0 auto;
 }
+
 .team-profile-container {
     display: flex;
     padding-top: 100px;
@@ -566,31 +575,37 @@ h3 {
     padding-right: 140px;
     justify-content: space-between;
 }
+
 .team-profile img {
     width: 200px;
     height: 200px;
     border-radius: 8px;
     margin-bottom: 12px;
 }
+
 .team-profile h4 {
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 8px;
 }
+
 .team-profile p {
     font-size: 16px;
     color: rgba(255, 255, 255, .7);
     margin-bottom: 8px;
 }
+
 .social-icons img {
     width: 24px;
     height: 24px;
     opacity: 0.7;
 }
+
 .social-icons img:hover {
     opacity: 1;
     cursor: pointer;
 }
+
 .icon-container {
     display: flex;
     gap: 4px;
@@ -607,11 +622,13 @@ h3 {
     gap: 24px;
     padding-top: 56px;
 }
+
 .milestone-container {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
+
 .milestone-card {
     background-image: linear-gradient(to right, #2F3F68, #1E2A4B);
     display: flex;
@@ -642,44 +659,44 @@ h3 {
     position: relative;
     left: -100px;
     bottom: -100px;
- }
+}
 
- .milestone-img-right {
+.milestone-img-right {
     flex: 1;
     position: relative;
     right: -100px;
     bottom: -64px;
- }
+}
 
- .feature-container.feature-container-gradient.milestone {
+.feature-container.feature-container-gradient.milestone {
     align-items: center;
     padding: 0px 32px;
- }
+}
 
- .features-box.milestone {
+.features-box.milestone {
     padding-top: 56px;
- }
+}
 
- .three-features.milestone {
+.three-features.milestone {
     padding-top: 56px;
- }
+}
 
- .next-step-img-left {
+.next-step-img-left {
     position: relative;
     left: -160px;
     bottom: -24px;
- }
+}
 
- .next-step-img-center {
+.next-step-img-center {
     position: relative;
     bottom: -24px;
- }
+}
 
- .next-step-img-right {
+.next-step-img-right {
     position: relative;
     right: -160px;
     bottom: -24px;
- }
+}
 
 .page-section.bottom {
     padding-bottom: 120px;
@@ -715,4 +732,10 @@ h3 {
 
 .footer-link:hover {
     color: rgba(255, 255, 255, .7);
+}
+
+@media only screen and (min-width: 1800px) {
+    .page-section {
+        padding: 5% 20%;
+    }
 }
