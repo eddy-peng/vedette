@@ -160,6 +160,11 @@ h1 {
     background-clip: text;
     background-size: 100%;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.spacer {
+    margin-left: 10px;
 }
 
 /* Hero section subtitle */
@@ -187,7 +192,6 @@ h1 {
 /* Challenges Section Styles */
 
 .page-section {
-    /* padding: 180px 32px 72px 72px; */
     padding: 180px 72px 32px 72px;
     background-color: #121212;
 }
@@ -592,6 +596,94 @@ h3 {
     gap: 4px;
 }
 
+
+/* Milestone Page Styles */
+
+/* Milestone Cards */
+
+.milestones-parent-conainter {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 56px;
+}
+.milestone-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.milestone-card {
+    background-image: linear-gradient(to right, #2F3F68, #1E2A4B);
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    border-radius: 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+}
+
+.milestone-value {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+
+.milestone-name {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.milestone-img-left {
+    flex: 1;
+    position: relative;
+    left: -100px;
+    bottom: -100px;
+ }
+
+ .milestone-img-right {
+    flex: 1;
+    position: relative;
+    right: -100px;
+    bottom: -64px;
+ }
+
+ .feature-container.feature-container-gradient.milestone {
+    align-items: center;
+    padding: 0px 32px;
+ }
+
+ .features-box.milestone {
+    padding-top: 56px;
+ }
+
+ .three-features.milestone {
+    padding-top: 56px;
+ }
+
+ .next-step-img-left {
+    position: relative;
+    left: -160px;
+    bottom: -24px;
+ }
+
+ .next-step-img-center {
+    position: relative;
+    bottom: -24px;
+ }
+
+ .next-step-img-right {
+    position: relative;
+    right: -160px;
+    bottom: -24px;
+ }
+
+.page-section.bottom {
+    padding-bottom: 120px;
+}
 
 /* Footer */
 .footer {
