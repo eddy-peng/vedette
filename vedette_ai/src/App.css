@@ -595,6 +595,52 @@ h3 {
     display: flex;
     gap: 4px;
 }
+.campus-visit, .guiding-principles {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.campus-visit .img-container {
+    padding-top: 40px;
+    padding-left: 188px;
+    padding-right: 188px;
+}
+.campus-visit .img-container img {
+    width: 100%;
+}
+.guiding-principles {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.guiding-principles .intro-text {
+    margin-bottom: 40px;
+}
+.principles-row {
+    gap: 24px;
+    display: flex;
+    margin-bottom: 24px;
+}
+.principle-square-card {
+    background-color: #242D46;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 280px;
+}
+.principle-rectangle-card {
+    background-color: #242D46;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 280px;
+}
 
 
 /* Milestone Page Styles */
