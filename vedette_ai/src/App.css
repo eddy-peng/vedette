@@ -625,10 +625,12 @@ h3 {
     flex-direction: column;
     border-radius: 16px;
     gap: 8px;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    height: 280px;
+    /* justify-content: center;
+    align-items: center; */
+    width: 30%;
+    height: 320px;
+    padding: 32px;
+    overflow: hidden;
 }
 .principle-rectangle-card {
     background-color: #242D46;
@@ -636,11 +638,53 @@ h3 {
     flex-direction: column;
     border-radius: 16px;
     gap: 8px;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    height: 280px;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    height: 320px;
+    padding: 32px;
+    overflow: hidden;
 }
+.principle-width-limit .principle-desc {
+    max-width: 50%;
+}
+.principle-desc, .principle-content a {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+}
+.principle-content a {
+    text-decoration: underline;
+}
+.principle-content a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: pointer;
+}
+.research-img-right {
+    position: relative;
+    right: -160px;
+    bottom: 20px;
+}
+.threecircles-img-right {
+    width: 400px;
+    position: relative;
+    right: -380px;
+    bottom: 260px;
+}
+.aiglitter-img-right {
+    width: 180px;
+    position: relative;
+    right: -160px;
+    bottom: 40px;
+}
+.google-img-right {
+    width: 280px;
+    position: relative;
+    right: -120px;
+    bottom: 60px;
+}
+
+
 
 
 /* Milestone Page Styles */
