@@ -6,7 +6,7 @@ import FeatureFourImg from '../images/Feature_4.svg';
 
 export default function Features() {
     return (
-        <section className='page-section'>
+        <section className='page-section' id='features'>
             <h2>
                 The Capabilities Of Vedette
             </h2>

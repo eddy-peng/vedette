@@ -118,6 +118,7 @@ section {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .secondary-button:hover {
@@ -165,6 +166,11 @@ h1 {
 
 .spacer {
     margin-left: 10px;
+}
+
+.spacer-both {
+    margin-left: 10px;
+    padding-right: 10px;
 }
 
 /* Hero section subtitle */
@@ -474,7 +480,7 @@ h3 {
 .faqs {
     min-height: 100vh;
     max-height: 300vh;
-    padding: 0 300px;
+    padding: 56px 300px;
     align-content: center;
     padding-top: 180px;
 }
@@ -634,6 +640,10 @@ h3 {
     display: flex;
     margin-bottom: 24px;
 }
+
+.principles-container {
+    padding-top: 56px;
+}
 .principle-square-card {
     background-color: #242D46;
     display: flex;
@@ -683,7 +693,7 @@ h3 {
 .threecircles-img-right {
     width: 400px;
     position: relative;
-    right: -380px;
+    right: -400px;
     bottom: 260px;
 }
 .aiglitter-img-right {
@@ -827,5 +837,25 @@ h3 {
 @media only screen and (min-width: 1800px) {
     .page-section {
         padding: 5% 20%;
+    }
+
+    .threecircles-img-right {
+        right: -550px;
+        bottom: 240px;
+    }
+
+    .aiglitter-img-right {
+        right: -240px;
+        bottom: 8px;
+    }
+
+    .google-img-right {
+        right: -240px;
+        bottom: 40spx;
+    }
+
+    .faqs {
+        padding: 0 20%;
+        padding-top: 180px;
     }
 }

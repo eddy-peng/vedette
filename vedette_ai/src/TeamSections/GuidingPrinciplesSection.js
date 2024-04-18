@@ -6,10 +6,10 @@ import aiglitter from '../images/ai_glitter.svg';
 
 export default function GuidingPrinciplesSection() {
     return (
-        <section className='guiding-principles'>
-            <div className="intro-text">
-                <h3>Our Guiding Principles</h3>
-                <p>A series of design and ethical guidelines guided the creation of Vedette to ensure equity and empowerment.</p>
+        <section className='page-section guiding-principles'>
+            <div>
+                <h2>Our Guiding Principles</h2>
+                <p className='heading-caption'>A series of design and ethical guidelines guided the creation of<br></br> Vedette to ensure equity and empowerment.</p>
             </div>
             <div className="principles-container">
                 <div className="principles-row">

@@ -11,10 +11,13 @@ import internet from '../images/internet.svg';
 
 export default function TeamIntroSection() {
     return (
-        <section className='team-intro'>
-            <div className="intro-text">
-                <h3>The <span className="text-gradient">People</span> Behind Vedette</h3>
-                <p>Vedette was made possible through the collaborative efforts of Google Android Security and five extremely talented students from the University of Washington’s Information School.</p>
+        // <section className='team-intro'>
+        <section className='page-section'>
+            {/* <div className="intro-text"> */}
+            <div>
+                {/* <h3>The <span className="text-gradient">People</span> Behind Vedette</h3> */}
+                <h2>The <span className="text-gradient spacer-both">People</span> Behind Vedette</h2>
+                <p className='heading-caption'>Vedette was made possible through the collaborative efforts of Google<br></br> Android Security and five extremely talented students from the University<br></br> of Washington’s Information School.</p>
             </div>
             <div className="team-profile-container">
                 <div className="team-profile">
@@ -23,10 +26,14 @@ export default function TeamIntroSection() {
                     <p>Manager, Designer</p>
                     <div className="icon-container">
                         <div className="social-icons">
-                            <img src={linkedin}></img>
+                            <a href='https://www.linkedin.com/in/eddy-peng/' target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin}></img>
+                            </a>
                         </div>
                         <div className="social-icons">
-                            <img src={internet}></img>
+                            <a href='https://eddypeng.com/index.html' target="_blank" rel="noopener noreferrer">
+                                <img src={internet}></img>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -36,10 +43,14 @@ export default function TeamIntroSection() {
                     <p>Researcher, Designer</p>
                     <div className="icon-container">
                         <div className="social-icons">
-                            <img src={linkedin}></img>
+                            <a href='https://www.linkedin.com/in/sami-foell/' target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin}></img>
+                            </a>
                         </div>
                         <div className="social-icons">
-                            <img src={internet}></img>
+                            <a href='https://www.samifoell.com/' target="_blank" rel="noopener noreferrer">
+                                <img src={internet}></img>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -49,10 +60,14 @@ export default function TeamIntroSection() {
                     <p>Full-Stack Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
-                            <img src={linkedin}></img>
+                            <a href='https://www.linkedin.com/in/hitanshu-prajapati/' target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin}></img>
+                            </a>
                         </div>
                         <div className="social-icons">
-                            <img src={github}></img>
+                            <a href='https://github.com/HitanshuPrajapati' target="_blank" rel="noopener noreferrer">
+                                <img src={github}></img>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -62,10 +77,14 @@ export default function TeamIntroSection() {
                     <p>Back-end Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
-                            <img src={linkedin}></img>
+                            <a href='https://www.linkedin.com/in/kyle-raychel/' target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin}></img>
+                            </a>
                         </div>
                         <div className="social-icons">
-                            <img src={github}></img>
+                            <a href='https://github.com/kyleraychel' target="_blank" rel="noopener noreferrer">
+                                <img src={github}></img>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -75,14 +94,18 @@ export default function TeamIntroSection() {
                     <p>Back-end Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
+                        <a href='https://www.linkedin.com/in/harold-pham-60b201177/' target="_blank" rel="noopener noreferrer">
                             <img src={linkedin}></img>
+                        </a>
                         </div>
                         <div className="social-icons">
+                            <a href='https://github.com/HaroldPham' target="_blank" rel="noopener noreferrer">
                             <img src={github}></img>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        </section >
     )
 }
