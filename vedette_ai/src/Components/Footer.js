@@ -4,12 +4,13 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className="footer-container">
-                <Link className='banner-link' to='/solution'>Google x iSchool 2024</Link>
+                {/* Replace link when project is published on iSchool capstone website */}
+                <a className='footer-link' href="https://ischool.uw.edu/capstone/projects" target="_blank" rel="noopener noreferrer">Google x iSchool 2024</a>
                 <div className='primary-links'>
                     <Link className='footer-link' to='/solution'>Solution</Link>
                     <Link className='footer-link' to='/team'>Team</Link>
                     <Link className='footer-link' to='/milestones'>Milestones</Link>
-                    <Link className='footer-link' to='/milestones'>View Demo</Link>
+                    <a className='footer-link' href="https://www.youtube.com/watch?v=1VPCImR1Py8" target="_blank" rel="noopener noreferrer">View Demo</a>
                 </div>
             </div>
         </div>
