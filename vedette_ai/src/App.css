@@ -11,9 +11,10 @@
     padding: 0;
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
+html {
+    /* scroll-behavior: smooth; */
+    background-color: #121212;
+}
 
 section {
     background-color: #121212;
