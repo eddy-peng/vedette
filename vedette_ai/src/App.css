@@ -836,6 +836,17 @@ h3 {
     color: rgba(255, 255, 255, .7);
 }
 
+
+
+/* Small viewport breakpoint styles */
+@media only screen and (min-widh: 600px) {
+    .page-section {
+        padding: 16px;
+    }
+}
+
+
+/* Large viewport breakpoint styles */
 @media only screen and (min-width: 1800px) {
     .page-section {
         padding: 5% 20%;
