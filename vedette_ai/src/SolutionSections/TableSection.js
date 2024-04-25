@@ -49,6 +49,18 @@ export default function TestTable() {
                     <p className='row-tester-human'> N/A </p>
                 </div>
                 <hr className='table-line'></hr>
+                <div className='table-row'>
+                    <p className='row-title'>Deduplication Speed
+                        <span class="material-symbols-outlined help-icon" 
+                                title="INSERT TOOLTIP DETAILS">
+                                help 
+                        </span>
+                    </p>
+                    <p className='row-desc'>Potter ipsum wand elf parchment wingardium. again silver wand duel umbridge hair mistletoe.</p>
+                    <p className='row-tester'> 3 Sec </p>
+                    <p className='row-tester-human'> 3 Days </p>
+                </div>
+                <hr className='table-line'></hr>
             </div>
         </section>
     )

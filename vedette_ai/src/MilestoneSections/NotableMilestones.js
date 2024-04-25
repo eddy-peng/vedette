@@ -17,12 +17,12 @@ export default function NotableMilestones() {
                         <p className='feature-desc'>Voiced by ElevenLabs’s AI voiceover software, the demo video turned heads during the capstone dry-run and internally at Google.</p>
                     </div>
                     <div>
-                        <img src={Milestone_1} className='milestone-img-right'></img>
+                        <img src={Milestone_1} className='milestone-img milestone-img-right'></img>
                     </div>
                 </div>
                 <div className='feature-container feature-container-gradient milestone'>
                     <div>
-                        <img src={Milestone_2} className='milestone-img-left'></img>
+                        <img src={Milestone_2} className='milestone-img milestone-img-left'></img>
                     </div>
                     <div className='feature-content'>
                         <p className='feature-num'>MILESTONE 02</p>

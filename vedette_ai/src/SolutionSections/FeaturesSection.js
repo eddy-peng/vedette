@@ -3,6 +3,8 @@ import FeatureOneImg from '../images/Feature_1.svg';
 import FeatureTwoImg from '../images/Feature_2.svg';
 import FeatureThreeImg from '../images/Feature_3.svg';
 import FeatureFourImg from '../images/Feature_4.svg';
+import FeatureFiveImg from '../images/Feature_5.svg';
+import FeatureSixImg from '../images/Feature_6.svg';
 
 export default function Features() {
     return (
@@ -58,21 +60,21 @@ export default function Features() {
                     <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 05</p>
-                            <h3>View Raw Reports</h3>
-                            <p className='feature-desc'>Bug Reporters can export the report that is apparently similar to their own to conduct further analysis.</p>
+                            <h3>Export Reports</h3>
+                            <p className='feature-desc'>Bug Reporters can export similar reports in various formats to conduct further analysis independently.</p>
                         </div>
                         <div>
-                            <img></img>
+                            <img src={FeatureFiveImg} className='feature-five-img'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 06</p>
                             <h3>Progress Upgrades</h3>
-                            <p className='feature-desc'>Bug Reporters can learn more about how AI is scoring their report for transparency.</p>
+                            <p className='feature-desc'>Bug Reporters can view similarity scores that are integrated in the side bar with tooltip explanations.</p>
                         </div>
                         <div>
-                            <img></img>
+                        <img src={FeatureSixImg} className='feature-six-img'></img>
                         </div>
                     </div>
                 </div>
