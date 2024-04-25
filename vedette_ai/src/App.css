@@ -848,9 +848,9 @@ h3 {
 
 /* Large viewport breakpoint styles */
 @media only screen and (min-width: 1800px) {
-    .page-section {
+    /* .page-section {
         padding: 5% 20%;
-    }
+    } */
 
     .threecircles-img-right {
         right: -550px;
@@ -864,7 +864,7 @@ h3 {
 
     .google-img-right {
         right: -240px;
-        bottom: 40spx;
+        bottom: 40px;
     }
 
     .faqs {
