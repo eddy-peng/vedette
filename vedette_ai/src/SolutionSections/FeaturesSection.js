@@ -54,7 +54,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters are provided a detailed breakdown of how Vedette calculates similarity scores.</p>
                         </div>
                         <div>
-                            <img src={FeatureFourImg} className='feature-img feature-img-center'></img>
+                            <img src={FeatureFourImg} className='feature-four-img'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>

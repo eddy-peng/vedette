@@ -325,6 +325,12 @@ h2 {
     right: -100px;
 }
 
+.feature-four-img {
+    position: relative;
+    right: -100px;
+    bottom: -28px;
+}
+
 .feature-five-img {
     position: relative;
     bottom: 40px;
@@ -486,7 +492,7 @@ h3 {
 .faqs {
     min-height: 100vh;
     max-height: 300vh;
-    padding: 56px 300px;
+    padding: 56px 300px 0px 300px;
     align-content: center;
     padding-top: 180px;
 }
@@ -545,6 +551,7 @@ h3 {
     padding: 0 200px;
     height: 60vh;
     align-content: center;
+    padding-bottom: 100px;
 }
 
 .final-cta h3 {
