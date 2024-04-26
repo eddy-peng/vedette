@@ -866,10 +866,16 @@ h3 {
 
 /* Large viewport breakpoint styles */
 @media only screen and (min-width: 1800px) {
+    html {
+        /* scroll-behavior: smooth; */
+        margin: 0px 280px;
+           /* padding: 5% 20%; */
+    }
+    
     .page-section {
         /* padding: 160px 360px; */
         /* padding: 5% 20%; */
-        margin: 80px 280px;
+        /* margin: 80px 280px; */
     }
 
     .threecircles-img-right {
