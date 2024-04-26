@@ -867,8 +867,9 @@ h3 {
 /* Large viewport breakpoint styles */
 @media only screen and (min-width: 1800px) {
     .page-section {
-        padding: 160px 360px;
+        /* padding: 160px 360px; */
         /* padding: 5% 20%; */
+        margin: 80px 280px;
     }
 
     .threecircles-img-right {
