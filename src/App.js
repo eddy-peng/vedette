@@ -17,22 +17,20 @@ function App() {
   }, [pathname]);
 
   return (
-    <>
     <div>
       {/* Navbar */}
       <NavBar />
       {/* Page routes */}
       <Routes>
         <Route index element={<SolutionPage />} />
-        <Route path='/solution' element={<SolutionPage />} />
-        <Route path='/team' element={<TeamPage />} />
-        <Route path='/milestones' element={<MilestonePage />} />
+        <Route path='solution' element={<SolutionPage />} />
+        <Route path='team' element={<TeamPage />} />
+        <Route path='milestones' element={<MilestonePage />} />
       </Routes>
 
       {/* Footer */}
       <Footer />
     </div>
-    </>
   );
 }
 
