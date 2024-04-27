@@ -17,6 +17,7 @@ function App() {
   }, [pathname]);
 
   return (
+    <>
     <div>
       {/* Navbar */}
       <NavBar />
@@ -31,6 +32,7 @@ function App() {
       {/* Footer */}
       <Footer />
     </div>
+    </>
   );
 }
 
