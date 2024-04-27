@@ -20,8 +20,8 @@ export default function Features() {
                         <h3>Compare report content to previously triaged threats</h3>
                         <p className='feature-desc'>Bug Reporters can learn how their bug report may be a duplicate across relevant threat attributes to pivot or terminate the report.</p>
                     </div>
-                    <div>
-                        <img src={FeatureOneImg} className='feature-img'></img>
+                    <div className='feature-img'>
+                        <img src={FeatureOneImg}></img>
                     </div>
                 </div>
                 <div className='two-features'>

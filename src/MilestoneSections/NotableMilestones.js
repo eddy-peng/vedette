@@ -16,8 +16,8 @@ export default function NotableMilestones() {
                         <h3>MVP Video Demo</h3>
                         <p className='feature-desc'>Voiced by ElevenLabs’s AI voiceover software, the demo video turned heads during the capstone dry-run and internally at Google.</p>
                     </div>
-                    <div>
-                        <img src={Milestone_1} className='milestone-img milestone-img-right'></img>
+                    <div className='milestone-img-right'>
+                        <img src={Milestone_1} className='milestone-img '></img>
                     </div>
                 </div>
                 <div className='feature-container feature-container-gradient milestone'>
