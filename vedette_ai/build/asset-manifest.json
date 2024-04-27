@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/vedette/vedette_ai/src/App.js/static/css/main.e2b167b4.css",
+    "main.js": "/vedette/vedette_ai/src/App.js/static/js/main.747c1106.js",
+    "static/media/campus_visits.png": "/vedette/vedette_ai/src/App.js/static/media/campus_visits.986aeb973b13346de73d.png",
+    "static/media/Milestone_1.svg": "/vedette/vedette_ai/src/App.js/static/media/Milestone_1.410d14f5ca215b290c183cf8e9ca5f1d.svg",
+    "static/media/Problem.svg": "/vedette/vedette_ai/src/App.js/static/media/Problem.6fb74e0d3ce9198e75696f59e14efb41.svg",
+    "static/media/Milestone_2.svg": "/vedette/vedette_ai/src/App.js/static/media/Milestone_2.7733cc8fe19f93b68f9645bd62fda6ea.svg",
+    "static/media/research_papers.svg": "/vedette/vedette_ai/src/App.js/static/media/research_papers.3e823c3ff471c7f64182c981ecbeec78.svg",
+    "static/media/Feature_1.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_1.798513eb5765aa841d51ae6be8e869c5.svg",
+    "static/media/Feature_4.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_4.69d73ae6a7ed49b1e7717ea901d03c8f.svg",
+    "static/media/captain.png": "/vedette/vedette_ai/src/App.js/static/media/captain.2ad7cac6484615f3805a.png",
+    "static/media/Feature_2.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_2.a23c7bebf109c05c9f03046466c2e318.svg",
+    "static/media/hman.png": "/vedette/vedette_ai/src/App.js/static/media/hman.8cbc89dcdf78decd5a04.png",
+    "static/media/celebrity.png": "/vedette/vedette_ai/src/App.js/static/media/celebrity.e165238ffc7db5cad466.png",
+    "static/media/cook.png": "/vedette/vedette_ai/src/App.js/static/media/cook.5c5886cf1dc7a68ac5a2.png",
+    "static/media/unicorn.png": "/vedette/vedette_ai/src/App.js/static/media/unicorn.dcdacecb5decb0af9a8a.png",
+    "static/media/Feature_6.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_6.bc15fe924fac7a05920706ca2276b446.svg",
+    "static/media/Feature_3.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_3.1c6573d8a97c8483b86d7c5c2ebca708.svg",
+    "static/media/GPT.svg": "/vedette/vedette_ai/src/App.js/static/media/GPT.dcc00ab02393bec2331ffc8d5426e315.svg",
+    "static/media/Android.svg": "/vedette/vedette_ai/src/App.js/static/media/Android.9a67c03738990b36c01188ea78243529.svg",
+    "static/media/three_circles.svg": "/vedette/vedette_ai/src/App.js/static/media/three_circles.75b1b988dcbd7cd70e5e5d3fd9b98e36.svg",
+    "static/media/Feature_5.svg": "/vedette/vedette_ai/src/App.js/static/media/Feature_5.d75be3d97bba9327c44b83a32174391e.svg",
+    "static/media/ai_glitter.svg": "/vedette/vedette_ai/src/App.js/static/media/ai_glitter.3c79572c3a455b5a075c0a8ce82b70e1.svg",
+    "static/media/VRP_shape.svg": "/vedette/vedette_ai/src/App.js/static/media/VRP_shape.912faf73da80829e4cc0f4f066c35e2b.svg",
+    "index.html": "/vedette/vedette_ai/src/App.js/index.html",
+    "static/media/google_logo.svg": "/vedette/vedette_ai/src/App.js/static/media/google_logo.5f91f40b5a533b5483cf4563df174e06.svg",
+    "static/media/internet.svg": "/vedette/vedette_ai/src/App.js/static/media/internet.2dda0612654d69cfc825466f4515711d.svg",
+    "static/media/github.svg": "/vedette/vedette_ai/src/App.js/static/media/github.d8a78badbeb0d2f68fda99f5f5550776.svg",
+    "static/media/linkedin.svg": "/vedette/vedette_ai/src/App.js/static/media/linkedin.d2d5bebcb88769edbdc51362628451e4.svg",
+    "main.e2b167b4.css.map": "/vedette/vedette_ai/src/App.js/static/css/main.e2b167b4.css.map",
+    "main.747c1106.js.map": "/vedette/vedette_ai/src/App.js/static/js/main.747c1106.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b167b4.css",
+    "static/js/main.747c1106.js"
+  ]
+}
