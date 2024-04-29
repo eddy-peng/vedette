@@ -868,27 +868,157 @@ h3 {
 }
 
 
+/* Phone Sized viewport breakpoint styles */
+@media only screen and (min-width: 320px) {
+    html {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
 
-/* Small viewport breakpoint styles */
-@media only screen and (min-widh: 600px) {
+    /* Temp */
+    .navbar {
+        display: none;
+    }
+
+    /* Hero section */
+    .hero-section {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .hero-section h1 {
+        font-size: 40px;
+    }
+    .sub-title {
+        font-size: 14px;
+    }
+    .button-container {
+        gap: 12px;
+    }
+    .primary-button, .secondary-button {
+        font-size: 14px;
+        padding: 12px 20px; 
+    }
+    .prob-svg {
+        width: 100%;
+        border: 2px solid;
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+        border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
+        margin: 32px 0;
+        box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    /* Challenges */
+    .page-section {
+        text-align: center;
+        padding: 100px 0px 0px 0px;
+    }
+    .page-section h2 {
+        font-size: 28px;
+    }
+    .challenge-container {
+        display: inline-block;
+        padding-top: 80px;
+    }
+    .challenge-item {
+        width: 180px;
+        height: 180px;
+        padding: 4px;
+    }
+    .challenge-desc {
+        font-size: 16px;
+        width: 180px;
+    }
+    .challenge-num {
+        font-size: 16px;
+    }
+
+    /* Features */
+    .heading-caption {
+        font-size: 14px;
+    }
+    .features-box {
+        padding: 0px;
+    }
+    .feature-container {
+        display: inline-block;
+        padding: 24px;
+    }
+    .feature-container-gradient {
+        background-image: none;
+    }
+    .feature-num {
+        font-size: 16px;
+    }
+    .feature-content {
+        gap: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .feature-desc {
+        display: none;
+    }
+    .feature-img-one {
+        padding-top: 24px;
+    }
+    .feature-img {
+        display: inline-block;
+        right: 0px;
+    }
+    .feature-img img {
+        width: 200%;
+    }
+    .two-features {
+        display: inline-block;
+    }
+    .feature-container-two {
+        margin-right: 0px;
+        gap: 24px;
+        height: 480px;
+        margin-bottom: 20px;
+        padding: 24px;
+    }
+    .feature-container-two:last-child {
+        margin-bottom: 0px;
+    }
+    .feature-img-two img {
+        width: 380%;
+    }
+    .feature-img-three img {
+        width: 220%;
+    }
+    .three-features {
+        display: none;
+    }
+
+    /* Video */
+    .demo-container {
+        height: 100%;
+        padding: 0px;
+    }
+    .demo-vid {
+        margin: 32px 0;
+    }
+
+    /* Table */
+    .efficacy-table h2, .efficacy-table .heading-caption, .table-container {
+        display: none;
+    }
+}
+
+/* Tablet Sized viewport breakpoint styles */
+@media only screen and (min-width: 768px) {
     .page-section {
         padding: 16px;
     }
 }
 
 
-/* Large viewport breakpoint styles */
-@media only screen and (min-width: 1800px) {
-    html {
-        /* scroll-behavior: smooth; */
-        /* margin: 0px 280px; */
-           /* padding: 5% 20%; */
-    }
-    
+/* Large Desktop Sized viewport breakpoint styles */
+@media only screen and (min-width: 1980px) {
     .page-section {
-        /* padding: 160px 360px; */
         padding: 5% 20%;
-        /* margin: 80px 280px; */
     }
 
     .threecircles-img-right {

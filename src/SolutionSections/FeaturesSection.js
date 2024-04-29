@@ -21,7 +21,7 @@ export default function Features() {
                         <p className='feature-desc'>Bug Reporters can learn how their bug report may be a duplicate across relevant threat attributes to pivot or terminate the report.</p>
                     </div>
                     <div className='feature-img'>
-                        <img src={FeatureOneImg}></img>
+                        <img src={FeatureOneImg} className="feature-img-one"></img>
                     </div>
                 </div>
                 <div className='two-features'>
@@ -31,7 +31,7 @@ export default function Features() {
                             <h3>Explore curated historical bug reports with similar content </h3>
                             <p className='feature-desc'>Bug Reporters may view historical reports with similar content to their own, with similarity percentages and metadata to assist their selection of reports to explore.</p>
                         </div>
-                        <div>
+                        <div className='feature-img-two'>
                             <img src={FeatureTwoImg} className='feature-img'></img>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function Features() {
                             <h3>Receive dynamic content similarity updates in real time </h3>
                             <p className='feature-desc'>Bug Reporters are notified whenever their report passes a similarity threshold, prompting them to learn more about why their report may be a duplicate.</p>
                         </div>
-                        <div>
+                        <div className='feature-img-three'>
                             <img src={FeatureThreeImg} className='feature-img'></img>
                         </div>
                     </div>
