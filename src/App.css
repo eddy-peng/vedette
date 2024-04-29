@@ -86,6 +86,8 @@ section {
     color: rgba(255, 255, 255, 1);
 }
 
+
+
 /* Button Styles */
 .primary-button {
     display: flex;
@@ -501,7 +503,7 @@ h3 {
 }
 
 /* Modifed from https://github.com/ajaymuktha/React-Accordion/tree/main */
-.faqs h3 {
+.faqs h2 {
     text-align: center;
     font-size: 48px;
     color: rgba(255, 255, 255, 1);
@@ -875,11 +877,6 @@ h3 {
         margin-right: 24px;
     }
 
-    /* Temp */
-    .navbar {
-        display: none;
-    }
-
     /* Hero section */
     .hero-section {
         text-align: center;
@@ -994,7 +991,8 @@ h3 {
 
     /* Video */
     .demo-container {
-        height: 100%;
+        width:100%;
+        height: 32vh;
         padding: 0px;
     }
     .demo-vid {
@@ -1003,6 +1001,52 @@ h3 {
 
     /* Table */
     .efficacy-table h2, .efficacy-table .heading-caption, .table-container {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs {
+        padding: 0px;
+    }
+    .faqs h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .question {
+        padding: 2vh;
+        border-radius: 8px;
+    }
+    .question header h4 {
+        font-size: 14px;
+        font-weight: normal;
+        width: 90%;
+    }
+    .question p {
+        font-size: 14px;
+    }
+
+    /* Final CTA */
+    .final-cta {
+        padding: 0px;
+    }
+    .final-cta h3 {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-container {
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer-link {
+        margin: 0 auto;
+    }
+    .primary-links {
         display: none;
     }
 }
