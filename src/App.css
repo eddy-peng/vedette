@@ -871,7 +871,7 @@ h3 {
 
 
 /* Phone Sized viewport breakpoint styles */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     html {
         margin-left: 24px;
         margin-right: 24px;
@@ -1046,15 +1046,397 @@ h3 {
     .footer-link {
         margin: 0 auto;
     }
-    .primary-links {
+    .footer-container .primary-links {
+        display: none;
+    }
+
+    /* NAVBAR TEMP */
+    .navbar {
         display: none;
     }
 }
 
 /* Tablet Sized viewport breakpoint styles */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    html {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* Hero section */
+    .hero-section {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .hero-section h1 {
+        font-size: 40px;
+    }
+    .sub-title {
+        font-size: 14px;
+    }
+    .button-container {
+        gap: 12px;
+    }
+    .primary-button, .secondary-button {
+        font-size: 14px;
+        padding: 12px 20px; 
+    }
+    .prob-svg {
+        width: 100%;
+        border: 2px solid;
+        border-radius: 8px;
+        background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+        border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
+        margin: 32px 0;
+        box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    /* Challenges */
     .page-section {
-        padding: 16px;
+        text-align: center;
+        padding: 100px 0px 0px 0px;
+    }
+    .page-section h2 {
+        font-size: 28px;
+    }
+    .challenge-container {
+        display: inline-block;
+        padding-top: 80px;
+    }
+    .challenge-item {
+        width: 180px;
+        height: 180px;
+        padding: 4px;
+    }
+    .challenge-desc {
+        font-size: 16px;
+        width: 180px;
+    }
+    .challenge-num {
+        font-size: 16px;
+    }
+
+    /* Features */
+    .heading-caption {
+        font-size: 14px;
+    }
+    .features-box {
+        padding: 0px;
+    }
+    .feature-container {
+        display: inline-block;
+        padding: 24px;
+    }
+    .feature-container-gradient {
+        background-image: none;
+    }
+    .feature-num {
+        font-size: 16px;
+    }
+    .feature-content {
+        gap: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .feature-desc {
+        display: inline;
+        font-size: 14px;
+    }
+    .feature-img-one {
+        padding-top: 24px;
+    }
+    .feature-img {
+        display: inline-block;
+        right: 0px;
+    }
+    .feature-img img {
+        width: 100%;
+    }
+    .two-features {
+        display: inline-block;
+    }
+    .feature-container-two {
+        margin-right: 0px;
+        gap: 24px;
+        height: 480px;
+        margin-bottom: 20px;
+        padding: 24px;
+    }
+    .feature-container-two:last-child {
+        margin-bottom: 0px;
+    }
+    .feature-img-two img {
+        width: 140%;
+    }
+    .feature-img-three img {
+        width: 100%;
+    }
+    .three-features {
+        display: inline;
+    }
+    .feature-container-three {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .feature-container-three:last-child {
+        margin-bottom: 0px;
+    }
+    .feature-four-img {
+        right: 0;
+    }
+    .feature-six-img {
+        left: 0;
+        margin-top: 24px;
+    }
+
+    /* Video */
+    .demo-container {
+        width:100%;
+        height: 48vh;
+        padding: 0px;
+    }
+    .demo-vid {
+        margin: 32px 0;
+    }
+
+    /* Table */
+    .efficacy-table h2, .efficacy-table .heading-caption, .table-container {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs {
+        padding: 0px;
+    }
+    .faqs h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .question {
+        padding: 3vh;
+        border-radius: 8px;
+    }
+    .question header h4 {
+        font-size: 14px;
+        font-weight: normal;
+        width: 90%;
+    }
+    .question p {
+        font-size: 14px;
+    }
+
+    /* Final CTA */
+    .final-cta {
+        padding: 0px;
+    }
+    .final-cta h3 {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-container {
+        height: 40px;
+        font-size: 16px;
+    }
+    .footer-link {
+        margin: 0 auto;
+    }
+    .footer-container .primary-links {
+        display: none;
+    }
+
+    /* NAVBAR TEMP */
+    .navbar {
+        display: none;
+    }
+}
+
+/* Large Tablets & Small Laptops Sized viewport breakpoint styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    html {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* Navbar styles */
+    .navbar {
+        font-size: 16px;
+        height: 120px;
+        padding: 0;
+    }
+
+    .banner-link {
+        font-size: 16px;
+    }
+
+    .primary-links {
+        gap: 24px;
+    }
+
+    /* Hero section */
+    .hero-section {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .hero-section h1 {
+        font-size: 60px;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+    .button-container {
+        gap: 12px;
+    }
+    .primary-button, .secondary-button {
+        font-size: 20px;
+        padding: 14px 24px; 
+    }
+    .prob-svg {
+        width: 100%;
+        border: 4px solid;
+        border-radius: 8px;
+        background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+        border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
+        margin: 32px 0;
+        box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    /* Challenges */
+    .page-section {
+        text-align: left;
+        padding: 200px 0px 0px 0px;
+    }
+    .page-section h2 {
+        font-size: 32px;
+    }
+    .challenge-container {
+        display: flex;
+        gap: 48px;
+        padding-top: 80px;
+    }
+    
+    .challenge-item {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .challenge-num {
+        font-size: 16px;
+    }
+    
+    .challenge-desc {
+        font-size: 16px;
+        width: 180px;
+    }
+
+    /* Features */
+    .heading-caption {
+        font-size: 20px;
+    }
+    
+    .features-box {
+        padding: 0;
+    }
+    
+    .feature-container {
+        padding: 24px;
+    }
+    
+    .feature-num {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .feature-container h3 {
+        width: 200px;
+    }
+    
+    .feature-desc {
+        font-size: 14px;
+    }
+    .feature-img-two img {
+        right: -20px;
+    }
+    .feature-img-three img {
+        right: 0px;
+    }
+    .feature-container-two, .feature-container-three {
+        padding: 24px;
+    }
+    .feature-five-img {
+        width: 100%;
+    }
+    .feature-four-img {
+        width: 100%;
+        right: 0;
+    }
+    .feature-six-img {
+        width: 100%;
+        left: 0;
+        padding-top: 60px;
+    }
+    
+
+    /* Video */
+    .demo-container {
+        width:100%;
+        height: 70vh;
+        padding: 0px;
+    }
+    .demo-vid {
+        margin: 32px 0;
+    }
+
+    /* Table */
+    .efficacy-table h2, .efficacy-table .heading-caption, .table-container {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs {
+        padding: 0px;
+    }
+    .faqs h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .question {
+        padding: 4vh;
+        border-radius: 8px;
+    }
+    .question header h4 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .question p {
+        font-size: 16px;
+    }
+
+    /* Final CTA */
+    .final-cta {
+        padding: 0px;
+    }
+    .final-cta h3 {
+        font-size: 40px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 0;
+    }
+    
+    .footer-container {
+        font-size: 16px;
+        height: 80px;
     }
 }
 
