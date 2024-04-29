@@ -1258,7 +1258,7 @@ h3 {
 }
 
 /* Large Tablets & Small Laptops Sized viewport breakpoint styles */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     html {
         margin-left: 40px;
         margin-right: 40px;
@@ -1439,6 +1439,8 @@ h3 {
         height: 80px;
     }
 }
+
+
 
 
 /* Large Desktop Sized viewport breakpoint styles */
