@@ -332,18 +332,15 @@ h2 {
 
 .feature-four-img {
     position: relative;
-    right: -100px;
     bottom: -28px;
+    border: 1px solid #898888;
+    border-radius: 4px;
+    width: 100%;
 }
 
 .feature-five-img {
     position: relative;
     bottom: -72px;
-}
-
-.feature-six-img {
-    position: relative;
-    left: -20px;
 }
 
 h3 {
@@ -381,11 +378,13 @@ h3 {
 .feature-img-center {
     right: 0px;
     bottom: -10px;
-    width: 99%;
+    width: 100%;
     border-radius: 4px;
     border: 1px solid #898888;
 }
-
+.feature-six-img {
+    margin-top: 40px;
+}
 
 /* Demo Video Section Styles */
 
@@ -1007,6 +1006,8 @@ h3 {
     /* FAQs */
     .faqs {
         padding: 0px;
+        min-height: 100vh;
+        max-height: 500vh;
     }
     .faqs h2 {
         text-align: center;
@@ -1015,6 +1016,7 @@ h3 {
     .question {
         padding: 2vh;
         border-radius: 8px;
+        margin-bottom: 2.5vh;
     }
     .question header h4 {
         font-size: 14px;
@@ -1182,14 +1184,6 @@ h3 {
     .feature-container-three:last-child {
         margin-bottom: 0px;
     }
-    .feature-four-img {
-        right: 0;
-    }
-    .feature-six-img {
-        left: 0;
-        margin-top: 24px;
-    }
-
     /* Video */
     .demo-container {
         width:100%;
@@ -1377,12 +1371,6 @@ h3 {
     }
     .feature-four-img {
         width: 100%;
-        right: 0;
-    }
-    .feature-six-img {
-        width: 100%;
-        left: 0;
-        padding-top: 60px;
     }
     
 

@@ -71,10 +71,10 @@ export default function Features() {
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 06</p>
                             <h3>Progress Upgrades</h3>
-                            <p className='feature-desc'>Bug Reporters can view similarity scores that are integrated in the side bar with tooltip explanations.</p>
+                            <p className='feature-desc'>Bug Reporters receive field to field similarity scores integrated in the side bar for deeper insights.</p>
                         </div>
                         <div>
-                        <img src={FeatureSixImg} className='feature-six-img'></img>
+                        <img src={FeatureSixImg} className='feature-img-center feature-six-img'></img>
                         </div>
                     </div>
                 </div>
