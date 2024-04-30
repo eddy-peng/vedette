@@ -17,7 +17,7 @@ export default function NotableMilestones() {
                         <p className='feature-desc'>Voiced by ElevenLabs’s AI voiceover software, the demo video turned heads during the capstone dry-run and internally at Google.</p>
                     </div>
                     <div className='milestone-img-right'>
-                        <img src={Milestone_1} className='milestone-img '></img>
+                        <img src={Milestone_1} className='milestone-img ' alt='Vedette demo video thumbnail'></img>
                     </div>
                 </div>
                 <div className='feature-container feature-container-gradient milestone'>
@@ -27,7 +27,7 @@ export default function NotableMilestones() {
                         <p className='feature-desc'>Vedette 1.0 is a fully functioning product (with a narrowed scope), illustrating the capabilities of AI assistance at Google Android.</p>
                     </div>
                     <div className='milestone-img-left'>
-                        <img src={Milestone_2} className='milestone-img'></img>
+                        <img src={Milestone_2} className='milestone-img' alt='"The Problem" VRP form field'></img>
                     </div>
                 </div>
             </div>

@@ -21,7 +21,7 @@ export default function GuidingPrinciplesSection() {
                             <a href='https://ai.google/responsibility/principles/' target="_blank" rel="noopener noreferrer">Learn More</a>
                         </div>
                         <div>
-                            <img src={aiglitter} className='aiglitter-img-right'></img>
+                            <img src={aiglitter} className='aiglitter-img-right' alt='AI sparkle symbol'></img>
                         </div>
                     </div>
                     <div className="principle-rectangle-card">
@@ -32,7 +32,7 @@ export default function GuidingPrinciplesSection() {
                             <a href='https://journal.iberamia.org/index.php/intartif/article/view/1267/209' target="_blank" rel="noopener noreferrer">Learn More</a>
                         </div>
                         <div>
-                            <img src={researchpapers} className='research-img-right'></img>
+                            <img src={researchpapers} className='research-img-right' alt='Research papers illustration'></img>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function GuidingPrinciplesSection() {
                             <a href='https://dschool.stanford.edu/resources/equity-centered-design-framework' target="_blank" rel="noopener noreferrer">Learn More</a>
                         </div>
                         <div>
-                            <img src={threecircles} className='threecircles-img-right'></img>
+                            <img src={threecircles} className='threecircles-img-right' alt='Equity-Centered Design Venn diagram illustration'></img>
                         </div>
                     </div>
                     <div className="principle-square-card">
@@ -56,7 +56,7 @@ export default function GuidingPrinciplesSection() {
                             <a href='https://about.google/philosophy/' target="_blank" rel="noopener noreferrer">Learn More</a>
                         </div>
                         <div>
-                            <img src={googlelogo} className='google-img-right'></img>
+                            <img src={googlelogo} className='google-img-right' alt='Google Logo'></img>
                         </div>
                     </div>
                 </div>

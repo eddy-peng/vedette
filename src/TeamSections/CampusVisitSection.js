@@ -10,7 +10,7 @@ export default function CampusVisitSection() {
                 <p className='heading-caption'>Throughout the creation of Vedette, several workshops at the Google campus in Kirkland, WA were conducted alongside the Android Security Team to learn, build, and connect.</p>
             </div>
             <div className="img-container">
-                <img src={campusvisits} className='campus-visit-img'></img>
+                <img src={campusvisits} className='campus-visit-img' alt='Project team at Google campus'></img>
             </div>
         </section>
     )

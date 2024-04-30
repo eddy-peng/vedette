@@ -6,6 +6,7 @@ export default function DemoVideo() {
             <h2>See Vedette In Action</h2>
             <div className='demo-container'>  
                 <iframe 
+                    aria-label='Vedette Demo Video'
                     className='demo-vid'
                     src="https://www.youtube.com/embed/1VPCImR1Py8" 
                     title="YouTube video player"

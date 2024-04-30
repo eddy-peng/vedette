@@ -13,7 +13,7 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className="hero-image-container">
-                <img className='prob-svg' src={ProblemSVG}></img>
+                <img className='prob-svg' src={ProblemSVG} alt='"The Problem" VRP form field screenshot'></img>
             </div>
         </section>
     )

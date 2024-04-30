@@ -18,7 +18,7 @@ export default function FutureActions() {
                             <p className='feature-desc'>Vedette uses Chat GPT 3.5 as its AI Model. Chat GPT 4 could be explored to compare effectiveness.</p>
                         </div>
                         <div>
-                            <img src={GPTImg} className='next-step-img-left'></img>
+                            <img src={GPTImg} className='next-step-img-left' alt='OpenAI logo'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>
@@ -28,7 +28,7 @@ export default function FutureActions() {
                             <p className='feature-desc'>Though Vedette uses open-source Chromium reports for data, it can use Android reports after adjustments.</p>
                         </div>
                         <div>
-                            <img src={AndroidImg} className='next-step-img-center'></img>
+                            <img src={AndroidImg} className='next-step-img-center' alt='Android Logo'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>
@@ -38,7 +38,7 @@ export default function FutureActions() {
                             <p className='feature-desc'>Connecting with Bug Reporters is out of project scope. However, being the primary users of Vedette, it is a must.</p>
                         </div>
                         <div>
-                            <img src={VRPImg} className='next-step-img-right'></img>
+                            <img src={VRPImg} className='next-step-img-right' alt='Geometric illustration'></img>
                         </div>
                     </div>
                 </div>

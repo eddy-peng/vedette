@@ -21,86 +21,86 @@ export default function TeamIntroSection() {
             </div>
             <div className="team-profile-container">
                 <div className="team-profile">
-                    <img src={captain}></img>
+                    <img src={captain} alt='Eddy Peng headshot'></img>
                     <h4>Eddy Peng</h4>
                     <p>Manager, Designer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                             <a href='https://www.linkedin.com/in/eddy-peng/' target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin}></img>
+                                <img src={linkedin} alt='LinkedIn icon'></img>
                             </a>
                         </div>
                         <div className="social-icons">
                             <a href='https://eddypeng.com/index.html' target="_blank" rel="noopener noreferrer">
-                                <img src={internet}></img>
+                                <img src={internet} alt='Website icon'></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="team-profile">
-                    <img src={cook}></img>
+                    <img src={cook} alt='Sami Foell headshot'></img>
                     <h4>Sami Foell</h4>
                     <p>Researcher, Designer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                             <a href='https://www.linkedin.com/in/sami-foell/' target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin}></img>
+                                <img src={linkedin} alt='LinkedIn icon'></img>
                             </a>
                         </div>
                         <div className="social-icons">
                             <a href='https://www.samifoell.com/' target="_blank" rel="noopener noreferrer">
-                                <img src={internet}></img>
+                                <img src={internet} alt='Website icon'></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="team-profile">
-                    <img src={unicorn}></img>
+                    <img src={unicorn} alt='Hitanshu Prajapati headshot'></img>
                     <h4>Hitanshu Prajapati</h4>
                     <p>Full-Stack Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                             <a href='https://www.linkedin.com/in/hitanshu-prajapati/' target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin}></img>
+                                <img src={linkedin} alt='LinkedIn icon'></img>
                             </a>
                         </div>
                         <div className="social-icons">
                             <a href='https://github.com/HitanshuPrajapati' target="_blank" rel="noopener noreferrer">
-                                <img src={github}></img>
+                                <img src={github} alt='Github icon'></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="team-profile">
-                    <img src={celebrity}></img>
+                    <img src={celebrity} alt='Kyle Raychel headshot'></img>
                     <h4>Kyle Raychel</h4>
                     <p>Back-end Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                             <a href='https://www.linkedin.com/in/kyle-raychel/' target="_blank" rel="noopener noreferrer">
-                                <img src={linkedin}></img>
+                                <img src={linkedin} alt='LinkedIn icon'></img>
                             </a>
                         </div>
                         <div className="social-icons">
                             <a href='https://github.com/kyleraychel' target="_blank" rel="noopener noreferrer">
-                                <img src={github}></img>
+                                <img src={github} alt='Github icon'></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="team-profile">
-                    <img src={hman}></img>
+                    <img src={hman} alt='Harold Pham headshot'></img>
                     <h4>Harold Pham</h4>
                     <p>Back-end Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                         <a href='https://www.linkedin.com/in/harold-pham-60b201177/' target="_blank" rel="noopener noreferrer">
-                            <img src={linkedin}></img>
+                            <img src={linkedin} alt='LinkedIn icon'></img>
                         </a>
                         </div>
                         <div className="social-icons">
                             <a href='https://github.com/HaroldPham' target="_blank" rel="noopener noreferrer">
-                            <img src={github}></img>
+                            <img src={github} alt='Github icon'></img>
                         </a>
                     </div>
                 </div>

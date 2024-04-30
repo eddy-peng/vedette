@@ -21,7 +21,7 @@ export default function Features() {
                         <p className='feature-desc'>Bug Reporters can learn how their bug report may be a duplicate across relevant threat attributes to pivot or terminate the report.</p>
                     </div>
                     <div className='feature-img'>
-                        <img src={FeatureOneImg} className="feature-img-one"></img>
+                        <img src={FeatureOneImg} className="feature-img-one" alt='Report comparison UI'></img>
                     </div>
                 </div>
                 <div className='two-features'>
@@ -32,7 +32,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters may view historical reports with similar content to their own, with similarity percentages and metadata to assist their selection of reports to explore.</p>
                         </div>
                         <div className='feature-img-two'>
-                            <img src={FeatureTwoImg} className='feature-img'></img>
+                            <img src={FeatureTwoImg} className='feature-img' alt='Similar reprot table UI'></img>
                         </div>
                     </div>
                     <div className='feature-container-two'>
@@ -42,7 +42,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters are notified whenever their report passes a similarity threshold, prompting them to learn more about why their report may be a duplicate.</p>
                         </div>
                         <div className='feature-img-three'>
-                            <img src={FeatureThreeImg} className='feature-img'></img>
+                            <img src={FeatureThreeImg} className='feature-img' alt='Similarity scores UI'></img>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters are provided a detailed breakdown of how Vedette calculates similarity scores.</p>
                         </div>
                         <div>
-                            <img src={FeatureFourImg} className='feature-four-img'></img>
+                            <img src={FeatureFourImg} className='feature-four-img' alt='Vedette score guide screenshot'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>
@@ -64,7 +64,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters can export similar reports in various formats to conduct further analysis independently.</p>
                         </div>
                         <div>
-                            <img src={FeatureFiveImg} className='feature-five-img'></img>
+                            <img src={FeatureFiveImg} className='feature-five-img' alt='Report export options diagram'></img>
                         </div>
                     </div>
                     <div className='feature-container-three'>
@@ -74,7 +74,7 @@ export default function Features() {
                             <p className='feature-desc'>Bug Reporters receive field to field similarity scores integrated in the side bar for deeper insights.</p>
                         </div>
                         <div>
-                        <img src={FeatureSixImg} className='feature-img-center feature-six-img'></img>
+                        <img src={FeatureSixImg} className='feature-img-center feature-six-img' alt='VRP progress bar UI'></img>
                         </div>
                     </div>
                 </div>
