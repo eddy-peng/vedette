@@ -1056,6 +1056,125 @@ h3 {
     .navbar {
         display: none;
     }
+
+    /* Team Page Intro */
+    .people-heading {
+        text-align: center;
+    }
+    .people-heading h2 {
+        display: block;
+    }
+    .spacer-both {
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+    .team-profile-container {
+        display: inline-block;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .team-profile img {
+        width: 100%;
+        height: auto;
+    }
+    .team-profile {
+        margin-bottom: 40px;
+    }
+
+    .team-profile h4 {
+        font-size: 20px;
+    }
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        opacity: 0.7;
+    }
+
+    .social-icons img:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .icon-container {
+        gap: 12px;
+        display: inline-flex;
+    }
+
+    .guiding-principles {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .principles-row {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .principles-container {
+        padding-top: 20px;
+    }
+    .principle-square-card {
+        display: inline-block;
+        height: auto;
+        width: auto;
+        padding: 24px;
+    }
+    .principle-rectangle-card {
+        display: inline-block;
+        height: auto;
+        width: auto;
+        padding: 24px;
+    }
+    .principle-width-limit .principle-desc {
+        max-width: 100%;
+    }
+    .principle-desc {
+        font-size: 14px;
+    }
+    .principle-content a {
+        display: none;
+    }
+    .principle-desc {
+        padding-top: 12px;
+    }
+    .research-img-right {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .threecircles-img-right {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    .aiglitter-img-right {
+        position: relative;
+        right: 0px;
+        bottom: -20px;
+        width: 100%;
+    }
+    
+    .google-img-right {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .campus-visit, .guiding-principles {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+    .campus-visit .img-container {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /* Tablet Sized viewport breakpoint styles */
@@ -1249,6 +1368,88 @@ h3 {
     .navbar {
         display: none;
     }
+
+    /* Team Page Intro */
+    .team-profile-container {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: left;
+        overflow-x: auto;
+        text-align: left;
+    }
+    .icon-container {
+        gap: 8px;
+    }
+
+    .guiding-principles {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .principles-container {
+        padding-top: 20px;
+    }
+    .principle-square-card {
+        width: 50%;
+        height: auto;
+        padding: 24px;
+    }
+    .principle-rectangle-card {
+        width: 50%;
+        height: auto;
+        padding: 24px;
+    }
+    .principle-width-limit .principle-desc {
+        max-width: 100%;
+    }
+    .principle-desc, .principle-content a {
+        font-size: 14px;
+    }
+    .principle-desc {
+        margin-top: 24px;
+    }
+    .principle-content a {
+        display: none;
+    }
+    .research-img-right {
+        position: relative;
+        width: 100%;
+        right: 0px;
+        bottom: 0px;
+    }
+    .threecircles-img-right {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    .aiglitter-img-right {
+        width: 100%;
+        position: relative;
+        right: 0px;
+        margin-top: 40px;
+        bottom: 0px;
+    }
+    
+    .google-img-right {
+        width: 100%;
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .campus-visit, .guiding-principles {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+    .campus-visit .img-container {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /* Large Tablets & Small Laptops Sized viewport breakpoint styles */
@@ -1304,7 +1505,7 @@ h3 {
     /* Challenges */
     .page-section {
         text-align: left;
-        padding: 200px 0px 0px 0px;
+        padding: 140px 0px 0px 0px;
     }
     .page-section h2 {
         font-size: 32px;
@@ -1425,6 +1626,73 @@ h3 {
     .footer-container {
         font-size: 16px;
         height: 80px;
+    }
+
+    /* Team Page Intro */
+    .team-profile-container {
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: left;
+        overflow-x: auto;
+        text-align: left;
+    }
+    .icon-container {
+        gap: 8px;
+    }
+    .guiding-principles {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .principles-container {
+        padding-top: 24px;
+    }
+    .principle-square-card {
+        padding: 24px;
+    }
+    .principle-rectangle-card {
+        padding: 24px;
+    }
+    .principle-width-limit .principle-desc {
+        max-width: 50%;
+    }
+    .principle-desc, .principle-content a {
+        font-size: 14px;
+    }
+    .principle-desc {
+        padding-top: 12px;
+    }
+    .research-img-right {
+        right: -60px;
+        width: 100%;
+    }
+    .threecircles-img-right {
+        width: 70%;
+        right: -190px;
+        bottom: 140px;
+    }
+    .aiglitter-img-right {
+        width: 100%;
+        right: -40px;
+        bottom: 0px;
+    }
+    
+    .google-img-right {
+        width: 100%;
+        position: relative;
+        right: -60px;
+        bottom: 0px;
+    }
+
+    .campus-visit, .guiding-principles {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        
+    }
+    .campus-visit .img-container {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 

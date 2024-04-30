@@ -14,10 +14,10 @@ export default function TeamIntroSection() {
         // <section className='team-intro'>
         <section className='page-section'>
             {/* <div className="intro-text"> */}
-            <div>
+            <div className="people-heading">
                 {/* <h3>The <span className="text-gradient">People</span> Behind Vedette</h3> */}
                 <h2>The <span className="text-gradient spacer-both">People</span> Behind Vedette</h2>
-                <p className='heading-caption'>Vedette was made possible through the collaborative efforts of Google<br></br> Android Security and five extremely talented students from the University<br></br> of Washington’s Information School.</p>
+                <p className='heading-caption'>Vedette was made possible through the collaborative efforts of Google Android Security and five extremely talented students from the University of Washington’s Information School.</p>
             </div>
             <div className="team-profile-container">
                 <div className="team-profile">
