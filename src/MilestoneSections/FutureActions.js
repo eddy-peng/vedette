@@ -8,7 +8,7 @@ export default function FutureActions() {
         <section className='page-section bottom'>
             <div>
                 <h2>Future Actions</h2>
-                <p className='heading-caption'>Vedette shows great promise in further application within Google’s <br></br>growing cybersecurity and AI space.</p>
+                <p className='heading-caption'>Vedette shows great promise in further application within Google’s growing cybersecurity and AI space.</p>
             </div>
             <div className='three-features milestone'>
                     <div className='feature-container-three feature-container-gradient'>

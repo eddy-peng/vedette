@@ -1175,6 +1175,99 @@ h3 {
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    /* Milestones */
+    .spacer {
+        margin-left: 0px;
+    }
+    .page-section h2 {
+        display: block;
+    }
+    .milestones-parent-conainter {
+        flex-direction: row;
+        padding-top: 24px;
+        overflow-x: auto;
+    }
+    
+    .milestone-card {
+        width: 200px;
+        height: 200px;
+        gap: 0;
+    }
+    
+    .milestone-value {
+        font-size: 60px;
+    }
+    
+    .milestone-name {
+        font-size: 16px;
+    }
+
+    .milestone .feature-desc {
+        display: block;
+        font-size: 14px;
+        padding-bottom: 24px;
+    }
+
+    
+    .milestone-img {
+        width: 100%;
+    }
+    
+    .milestone-img-left {
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .milestone-img-right {
+        width: 100%;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .feature-container.feature-container-gradient.milestone {
+        padding: 24px;
+        height: auto;
+    }
+    
+    .features-box.milestone {
+        padding-top: 24px;
+    }
+
+    .three-features {
+        display: block;
+    }
+    .feature-container-three {
+        margin-right: 0px;
+        height: auto;
+        margin-top: 24px;
+        padding: 24px;
+    }
+    .feature-container-three:first-child {
+        margin-top: 0px;
+    }
+    
+    .three-features.milestone {
+        padding-top: 24px;
+    }
+    
+    .next-step-img-left {
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .next-step-img-center {
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .next-step-img-right {
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
 }
 
 /* Tablet Sized viewport breakpoint styles */
@@ -1450,6 +1543,99 @@ h3 {
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    /* Milestones */
+    .spacer {
+        margin-left: 0px;
+    }
+    .page-section h2 {
+        display: block;
+    }
+    .milestones-parent-conainter {
+        flex-direction: row;
+        padding-top: 24px;
+        overflow-x: auto;
+    }
+    
+    .milestone-card {
+        width: 200px;
+        height: 200px;
+        gap: 0;
+    }
+    
+    .milestone-value {
+        font-size: 60px;
+    }
+    
+    .milestone-name {
+        font-size: 16px;
+    }
+
+    .milestone .feature-desc {
+        display: block;
+        font-size: 14px;
+        padding-bottom: 24px;
+    }
+
+    
+    .milestone-img {
+        width: 100%;
+    }
+    
+    .milestone-img-left {
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .milestone-img-right {
+        width: 100%;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .feature-container.feature-container-gradient.milestone {
+        padding: 24px;
+        height: auto;
+    }
+    
+    .features-box.milestone {
+        padding-top: 24px;
+    }
+
+    .three-features {
+        display: block;
+    }
+    .feature-container-three {
+        margin-right: 0px;
+        height: auto;
+        margin-top: 24px;
+        padding: 24px;
+    }
+    .feature-container-three:first-child {
+        margin-top: 0px;
+    }
+    
+    .three-features.milestone {
+        padding-top: 24px;
+    }
+    
+    .next-step-img-left {
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .next-step-img-center {
+        bottom: 0px;
+        width: 100%;
+    }
+    
+    .next-step-img-right {
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
 }
 
 /* Large Tablets & Small Laptops Sized viewport breakpoint styles */
@@ -1693,6 +1879,86 @@ h3 {
         padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    /* Milestones */
+
+    .milestones-parent-conainter {
+        padding-top: 24px;
+    }
+
+    .milestone-card {
+        width: 220px;
+        height: 220px;
+        gap: 
+    }
+
+    .milestone-value {
+        font-size: 60px;
+    }
+
+    .milestone-name {
+        font-size: 18px;
+    }
+
+    .milestone-img {
+        border-radius: 8px;
+        border: 2px solid;
+        background-image: linear-gradient(to right, #4285F4, #D6C8FF);
+        border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
+    }
+    .milestone-img-right {
+        display: flex;
+        flex: 1;
+        position: relative;
+        right: -40px;
+        bottom: -40px;
+    }
+    .milestone-img-left {
+        left: 0px;
+        bottom: 0px;
+        position: relative;
+        display: block;
+        flex: 0;
+    }
+
+    .milestone .feature-container-three {
+        height: auto;
+        margin-top: 24px;
+    }
+
+    .milestone .feature-desc {
+        padding-bottom: 24px;
+    }
+
+    .feature-container.feature-container-gradient.milestone {
+        align-items: center;
+        padding: 24px;
+    }
+
+    .features-box.milestone {
+        padding-top: 56px;
+    }
+
+    .three-features.milestone {
+        padding-top: 24px;
+    }
+
+    .next-step-img-left {
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .next-step-img-center {
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .next-step-img-right {
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
     }
 }
 
