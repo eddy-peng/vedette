@@ -868,9 +868,56 @@ h3 {
     color: rgba(255, 255, 255, .7);
 }
 
+.menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+
+}
+
+.menu span {
+    height: 4px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
 
 /* Phone Sized viewport breakpoint styles */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .banner-link {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        background-color: #121212;
+    }
+
+    .primary-links {
+        display: none;
+        flex-direction: column;
+        background-color: #121212;
+        z-index: 1;
+        width: 100vw;
+        padding-bottom: 64px;
+    }
+
+    .primary-links.show {
+        display: flex;
+        margin-top: 116px;
+    }
+
     html {
         margin-left: 24px;
         margin-right: 24px;
@@ -1054,7 +1101,7 @@ h3 {
 
     /* NAVBAR TEMP */
     .navbar {
-        display: none;
+        /* display: none; */
     }
 
     /* Team Page Intro */
