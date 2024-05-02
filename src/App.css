@@ -596,7 +596,6 @@ h3 {
     padding-top: 100px;
     padding-left: 140px;
     padding-right: 140px;
-    /* justify-content: space-between; */
     justify-content: center;
     gap: 16px;
 }
@@ -687,12 +686,8 @@ h3 {
     flex-direction: column;
     border-radius: 16px;
     gap: 8px;
-    /* justify-content: center;
-    align-items: center; */
     width: 70%;
-    /* height: 320px; */
     height: 400px;
-    /* height: 72vh; */
     padding: 32px;
     overflow: hidden;
 }
@@ -736,6 +731,26 @@ h3 {
     right: -80px;
     bottom: 56px;
 }
+
+.bonus-gallery-container {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.bonus-gallery-row {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    margin-top: 48px;
+}
+.bonus-img-and-caption img {
+    width: 100%;
+    border-radius: 16px;
+}
+.bonus-img-and-caption p {
+    padding-top: 14px;
+}
+
 
 
 
@@ -1212,6 +1227,26 @@ h3 {
         padding-right: 0px;
     }
 
+    .bonus-gallery-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bonus-gallery-row {
+        display: block;
+        gap: 24px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .bonus-img-and-caption img {
+        margin-top: 12px;
+    }
+    .bonus-img-and-caption p {
+        padding-top: 12px;
+        padding-bottom: 24px;
+        display: block;
+        font-size: 14px;
+    }
+
     /* Milestones */
     .spacer {
         margin-left: 0px;
@@ -1583,6 +1618,26 @@ h3 {
         padding-right: 0px;
     }
 
+    .bonus-gallery-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bonus-gallery-row {
+        display: block;
+        gap: 24px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .bonus-img-and-caption img {
+        margin-top: 12px;
+    }
+    .bonus-img-and-caption p {
+        padding-top: 12px;
+        padding-bottom: 24px;
+        display: block;
+        font-size: 14px;
+    }
+
     /* Milestones */
     .spacer {
         margin-left: 0px;
@@ -1894,6 +1949,11 @@ h3 {
         padding-right: 0px;
     }
 
+    .bonus-gallery-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     /* Milestones */
 
     .milestones-parent-conainter {
@@ -1903,7 +1963,6 @@ h3 {
     .milestone-card {
         width: 220px;
         height: 220px;
-        gap: 
     }
 
     .milestone-value {
