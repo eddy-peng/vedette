@@ -4,7 +4,7 @@ export default function TestTable() {
     return (
         <section className='page-section efficacy-table'>
             <h2>Vedette 1.0 Reliability</h2>
-            <p className='heading-caption'>Championing continues learning, Vedette has proven to have high <br></br>reliability compared to human attribute analysis.</p>
+            <p className='heading-caption'>Championing continues learning, Vedette has proven to have high reliability compared to human attribute analysis.</p>
             <div className='table-container'>
                 <div className='table-row'>
                     <p className='col-heading'>MEASURE</p>

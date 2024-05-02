@@ -1,33 +1,57 @@
 import React from 'react';
-import Milestone_1 from '../images/Milestone_1.svg';
-import Milestone_2 from '../images/Milestone_2.svg';
+import googlelogo from '../images/google_logo.svg';
+import vedette_icon from '../images/vedette_favicon.svg';
+import youtube_logo from '../images/youtube_logo.svg';
+import prompt_engineering from '../images/prompt_engineering.svg';
 
 export default function NotableMilestones() {
     return (
         <section className='page-section'>
             <div>
                 <h2>Notable Milestones</h2>
-                <p className='heading-caption'>The Vedette team has delivered several major deliverables to Google during the agile development process. Here are a couple!</p>
+                <p className='heading-caption'>The Vedette team has several memorable moments during the agile development process. Here are a few!</p>
             </div>
-            <div className='features-box milestone'>
-                <div className='feature-container feature-container-gradient milestone'>
-                    <div className='feature-content'>
-                        <p className='feature-num'>MILESTONE 01</p>
-                        <h3>MVP Video Demo</h3>
-                        <p className='feature-desc'>Voiced by ElevenLabs’s AI voiceover software, the demo video turned heads during the capstone dry-run and internally at Google.</p>
+            <div className="principles-container">
+                <div className="principles-row">
+                    <div className="principle-square-card">
+                        <div className='principle-content'>
+                            <h3>Solution Initialized</h3>
+                            <p className='principle-desc'>A memorable moment came after the team’s first on-site at Google. Where during ideation, Vedette was conceived.</p>
+                        </div>
+                        <div>
+                            <img src={vedette_icon} className='aiglitter-img-right vedette-icon-img' alt=''></img>
+                        </div>
                     </div>
-                    <div className='milestone-img-right'>
-                        <img src={Milestone_1} className='milestone-img ' alt='Vedette demo video thumbnail'></img>
+                    <div className="principle-rectangle-card">
+                        <div className='principle-content principle-width-limit'>
+                            <h3>MVP Video Demo</h3>
+                            <p className='principle-desc'>Voiced by ElevenLabs’s AI voiceover software, the mvp demo video was meticulously edited, resulting in heads being turned during the capstone dry-run and internally at Google.</p>
+                            <br/>
+                            <a href='https://www.youtube.com/watch?v=1VPCImR1Py8' target="_blank" rel="noopener noreferrer">Watch Now</a>
+                        </div>
+                        <div>
+                            <img src={youtube_logo} className='threecircles-img-right youtube-logo-img' alt=''></img>
+                        </div>
                     </div>
                 </div>
-                <div className='feature-container feature-container-gradient milestone'>
-                    <div className='feature-content'>
-                        <p className='feature-num'>MILESTONE 02</p>
-                        <h3>The Live Solution</h3>
-                        <p className='feature-desc'>Vedette 1.0 is a fully functioning product (with a narrowed scope), illustrating the capabilities of AI assistance at Google Android.</p>
+                <div className="principles-row">
+                    <div className="principle-rectangle-card">
+                        <div className='principle-content principle-width-limit'>
+                            <h3>Prompt Engineering</h3>
+                            <p className='principle-desc'>After many rounds of trial and error, our prompts to ChatGPT’s API were able to extract the relevant attributes from the data.</p>
+                        </div>
+                        <div>
+                            <img src={prompt_engineering} className='threecircles-img-right prompt-engineering-img' alt=''></img>
+                        </div>
                     </div>
-                    <div className='milestone-img-left'>
-                        <img src={Milestone_2} className='milestone-img' alt='"The Problem" VRP form field'></img>
+                    <div className="principle-square-card the-milestone-one">
+                        <div className='principle-content'>
+                            <h3>Hand-off</h3>
+                            <p className='principle-desc'>Summarizing the complex project into a 30+ page, palatable story for our sponsor and other Googlers who are new to the project.</p>
+                        </div>
+                        <div>
+                            <img src={googlelogo} className='google-img-right' alt='Google Logo'></img>
+                        </div>
                     </div>
                 </div>
             </div>

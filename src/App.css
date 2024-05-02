@@ -257,7 +257,7 @@ h2 {
     font-weight: 400;
     color: rgba(255, 255, 255, .7);
     text-align: center;
-    padding: 32px 0;
+    padding: 32px 250px;
 }
 
 .features-box {
@@ -664,6 +664,8 @@ h3 {
 
 .principles-container {
     padding-top: 56px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .principle-square-card {
     background-color: #242D46;
@@ -718,7 +720,7 @@ h3 {
 .threecircles-img-right {
     width: 400px;
     position: relative;
-    right: -230px;
+    right: -300px;
     bottom: 220px;
 }
 .aiglitter-img-right {
@@ -780,39 +782,23 @@ h3 {
     font-weight: 400;
 }
 
-.milestone-img {
-    border-radius: 8px;
-    border: 2px solid;
-    background-image: linear-gradient(to right, #4285F4, #D6C8FF);
-    border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
+.prompt-engineering-img {
+    bottom: 0px;
 }
-
-.milestone-img-left {
-    flex: 1;
-    position: relative;
-    left: -100px;
-    bottom: -100px;
+.vedette-icon-img {
+    right: -100px;
 }
-
-.milestone-img-right {
-    display: flex;
-    flex: 1;
-    position: relative;
-    right: -300px;
-    bottom: -64px;
+.youtube-logo-img {
+    bottom: 0;
 }
-
-.feature-container.feature-container-gradient.milestone {
-    align-items: center;
-    padding: 0px 32px;
-}
-
-.features-box.milestone {
-    padding-top: 56px;
+.the-milestone-one .google-img-right {
+    bottom: 0px;
 }
 
 .three-features.milestone {
     padding-top: 56px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .next-step-img-left {
@@ -924,6 +910,10 @@ h3 {
         margin-right: 24px;
     }
 
+    .page-section h2 {
+        display: block;
+    }
+
     /* Hero section */
     .hero-section {
         text-align: center;
@@ -980,6 +970,7 @@ h3 {
     /* Features */
     .heading-caption {
         font-size: 14px;
+        padding: 32px 0px;
     }
     .features-box {
         padding: 0px;
@@ -1100,11 +1091,6 @@ h3 {
         display: none;
     }
 
-    /* NAVBAR TEMP */
-    .navbar {
-        /* display: none; */
-    }
-
     /* Team Page Intro */
     .people-heading {
         text-align: center;
@@ -1161,6 +1147,8 @@ h3 {
     }
     .principles-container {
         padding-top: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .principle-square-card {
         display: inline-block;
@@ -1228,9 +1216,6 @@ h3 {
     .spacer {
         margin-left: 0px;
     }
-    .page-section h2 {
-        display: block;
-    }
     .milestones-parent-conainter {
         flex-direction: row;
         padding-top: 24px;
@@ -1251,41 +1236,14 @@ h3 {
         font-size: 16px;
     }
 
-    .milestone .feature-desc {
-        display: block;
-        font-size: 14px;
-        padding-bottom: 24px;
+    .prompt-engineering-img {
+        margin-top: 24px;
     }
 
-    
-    .milestone-img {
-        width: 100%;
-    }
-    
-    .milestone-img-left {
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-    }
-    
-    .milestone-img-right {
-        width: 100%;
-        right: 0px;
-        bottom: 0px;
-    }
-    
-    .feature-container.feature-container-gradient.milestone {
-        padding: 24px;
-        height: auto;
-    }
-    
-    .features-box.milestone {
-        padding-top: 24px;
-    }
-
-    .three-features {
+    .milestone {
         display: block;
     }
+
     .feature-container-three {
         margin-right: 0px;
         height: auto;
@@ -1298,6 +1256,8 @@ h3 {
     
     .three-features.milestone {
         padding-top: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .next-step-img-left {
@@ -1320,9 +1280,42 @@ h3 {
 
 /* Tablet Sized viewport breakpoint styles */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .banner-link {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        background-color: #121212;
+    }
+
+    .primary-links {
+        display: none;
+        flex-direction: column;
+        background-color: #121212;
+        z-index: 1;
+        width: 100vw;
+        padding-bottom: 64px;
+    }
+
+    .primary-links.show {
+        display: flex;
+        margin-top: 116px;
+    }
+    
     html {
         margin-left: 40px;
         margin-right: 40px;
+    }
+
+    .page-section h2 {
+        display: block;
     }
 
     /* Hero section */
@@ -1381,6 +1374,7 @@ h3 {
     /* Features */
     .heading-caption {
         font-size: 14px;
+        padding: 32px 0px;
     }
     .features-box {
         padding: 0px;
@@ -1435,7 +1429,7 @@ h3 {
         width: 100%;
     }
     .three-features {
-        display: inline;
+        display: none;
     }
     .feature-container-three {
         margin-right: 0px;
@@ -1505,11 +1499,6 @@ h3 {
         display: none;
     }
 
-    /* NAVBAR TEMP */
-    .navbar {
-        display: none;
-    }
-
     /* Team Page Intro */
     .team-profile-container {
         padding-top: 40px;
@@ -1530,6 +1519,8 @@ h3 {
     
     .principles-container {
         padding-top: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .principle-square-card {
         width: 50%;
@@ -1596,9 +1587,6 @@ h3 {
     .spacer {
         margin-left: 0px;
     }
-    .page-section h2 {
-        display: block;
-    }
     .milestones-parent-conainter {
         flex-direction: row;
         padding-top: 24px;
@@ -1619,39 +1607,11 @@ h3 {
         font-size: 16px;
     }
 
-    .milestone .feature-desc {
-        display: block;
-        font-size: 14px;
-        padding-bottom: 24px;
+    .prompt-engineering-img {
+        margin-top: 24px;
     }
 
-    
-    .milestone-img {
-        width: 100%;
-    }
-    
-    .milestone-img-left {
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-    }
-    
-    .milestone-img-right {
-        width: 100%;
-        right: 0px;
-        bottom: 0px;
-    }
-    
-    .feature-container.feature-container-gradient.milestone {
-        padding: 24px;
-        height: auto;
-    }
-    
-    .features-box.milestone {
-        padding-top: 24px;
-    }
-
-    .three-features {
+    .milestone {
         display: block;
     }
     .feature-container-three {
@@ -1666,6 +1626,8 @@ h3 {
     
     .three-features.milestone {
         padding-top: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .next-step-img-left {
@@ -1767,6 +1729,7 @@ h3 {
     /* Features */
     .heading-caption {
         font-size: 20px;
+        padding: 32px 0px;
     }
     
     .features-box {
@@ -1880,6 +1843,8 @@ h3 {
     }
     .principles-container {
         padding-top: 24px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .principle-square-card {
         padding: 24px;
@@ -1919,8 +1884,8 @@ h3 {
     }
 
     .campus-visit, .guiding-principles {
-        padding-top: 140px;
-        padding-bottom: 140px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         
     }
     .campus-visit .img-container {
@@ -1949,27 +1914,15 @@ h3 {
         font-size: 18px;
     }
 
-    .milestone-img {
-        border-radius: 8px;
-        border: 2px solid;
-        background-image: linear-gradient(to right, #4285F4, #D6C8FF);
-        border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
-    }
-    .milestone-img-right {
-        display: flex;
-        flex: 1;
-        position: relative;
-        right: -40px;
-        bottom: -40px;
-    }
-    .milestone-img-left {
-        left: 0px;
+    .prompt-engineering-img {
         bottom: 0px;
-        position: relative;
-        display: block;
-        flex: 0;
     }
-
+    .vedette-icon-img {
+        right: -100px;
+    }
+    .youtube-logo-img {
+        bottom: 0;
+    }
     .milestone .feature-container-three {
         height: auto;
         margin-top: 24px;
@@ -1990,6 +1943,8 @@ h3 {
 
     .three-features.milestone {
         padding-top: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .next-step-img-left {
@@ -1999,7 +1954,7 @@ h3 {
     }
 
     .next-step-img-center {
-        bottom: 0px;
+        bottom: -100px;
         width: 100%;
     }
 

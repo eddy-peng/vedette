@@ -12,7 +12,7 @@ export default function Features() {
             <h2>
                 The Capabilities Of Vedette
             </h2>
-            <p className='heading-caption'>Integrating AI into the Vulnerability Reward<br></br>Program’s bug reporting form</p>
+            <p className='heading-caption'>Integrating AI into the Vulnerability Reward Program’s bug reporting form</p>
             <div className='features-box'>
                 <div className='feature-container feature-container-gradient'>
                     <div className='feature-content'>
