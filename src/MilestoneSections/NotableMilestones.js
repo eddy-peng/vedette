@@ -19,7 +19,7 @@ export default function NotableMilestones() {
                             <p className='principle-desc'>A memorable moment came after the team’s first on-site at Google. Where during ideation, Vedette was conceived.</p>
                         </div>
                         <div>
-                            <img src={vedette_icon} className='aiglitter-img-right vedette-icon-img' alt=''></img>
+                            <img src={vedette_icon} className='aiglitter-img-right vedette-icon-img' alt='The modified verion of the Bug Reporting VRP Logo'></img>
                         </div>
                     </div>
                     <div className="principle-rectangle-card">
@@ -30,7 +30,7 @@ export default function NotableMilestones() {
                             <a href='https://www.youtube.com/watch?v=1VPCImR1Py8' target="_blank" rel="noopener noreferrer">Watch Now</a>
                         </div>
                         <div>
-                            <img src={youtube_logo} className='threecircles-img-right youtube-logo-img' alt=''></img>
+                            <img src={youtube_logo} className='threecircles-img-right youtube-logo-img' alt='The Youtube Logo'></img>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ export default function NotableMilestones() {
                             <p className='principle-desc'>After many rounds of trial and error, our prompts to ChatGPT’s API were able to extract the relevant attributes from the data.</p>
                         </div>
                         <div>
-                            <img src={prompt_engineering} className='threecircles-img-right prompt-engineering-img' alt=''></img>
+                            <img src={prompt_engineering} className='threecircles-img-right prompt-engineering-img' alt='A box with three arrows coming out of it'></img>
                         </div>
                     </div>
                     <div className="principle-square-card the-milestone-one">

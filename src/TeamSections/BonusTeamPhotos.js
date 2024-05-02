@@ -16,13 +16,13 @@ export default function BonusTeamPhotos() {
                 <div className='bonus-gallery-row'>
                     <div className='bonus-img-and-caption'>
                         <div>
-                            <img src={ups} alt=''></img>
+                            <img src={ups} alt='Three strapping young lads in a UPS Store'></img>
                         </div>
                         <p className='feature-desc'>At the UPS store near the Google campus printing out interview protocols</p>
                     </div>
                     <div className='bonus-img-and-caption'>
                         <div>
-                            <img src={firstmeet} alt=''></img>
+                            <img src={firstmeet} alt='Four strapping young lads in the lobby of Google'></img>
                         </div>
                         <p className='feature-desc'>The first on-site at google was the first time some of us met since the project began</p>
                     </div>
@@ -30,13 +30,13 @@ export default function BonusTeamPhotos() {
                 <div className='bonus-gallery-row'>
                     <div className='bonus-img-and-caption'>
                         <div>
-                            <img src={justburgers} alt=''></img>
+                            <img src={justburgers} alt='Four strapping young lads chomping on burgers and JustBurgers'></img>
                         </div>
                         <p className='feature-desc'>Having dinner at JustBurgers after our successful dry-run presentation</p>
                     </div>
                     <div className='bonus-img-and-caption'>
                         <div>
-                            <img src={midpoint} alt=''></img>
+                            <img src={midpoint} alt='Four strapping young lads exploring capitol hill'></img>
                         </div>
                         <p className='feature-desc'>Letting loose in Capitol Hill after our final presentation of winter quarter</p>
                     </div>
