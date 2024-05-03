@@ -8,7 +8,7 @@ export default function DemoVideo() {
                 <iframe 
                     aria-label='Vedette Demo Video'
                     className='demo-vid'
-                    src="https://www.youtube.com/embed/1VPCImR1Py8" 
+                    src="https://www.youtube.com/embed/lXVBjWtMLxo" 
                     title="YouTube video player"
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

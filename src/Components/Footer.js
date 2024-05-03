@@ -10,7 +10,7 @@ export default function Footer() {
                     <Link className='footer-link' to='/solution'>Solution</Link>
                     <Link className='footer-link' to='/team'>Team</Link>
                     <Link className='footer-link' to='/milestones'>Milestones</Link>
-                    <a className='footer-link' href="https://www.youtube.com/watch?v=1VPCImR1Py8" target="_blank" rel="noopener noreferrer">View Demo</a>
+                    <a className='footer-link' href="https://youtu.be/lXVBjWtMLxo" target="_blank" rel="noopener noreferrer">View Demo</a>
                 </div>
             </div>
         </div>

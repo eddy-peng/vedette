@@ -27,7 +27,7 @@ export default function NotableMilestones() {
                             <h3>MVP Video Demo</h3>
                             <p className='principle-desc'>Voiced by ElevenLabs’s AI voiceover software, the mvp demo video was meticulously edited, resulting in heads being turned during the capstone dry-run and internally at Google.</p>
                             <br/>
-                            <a href='https://www.youtube.com/watch?v=1VPCImR1Py8' target="_blank" rel="noopener noreferrer">Watch Now</a>
+                            <a href='https://youtu.be/lXVBjWtMLxo' target="_blank" rel="noopener noreferrer">Watch Now</a>
                         </div>
                         <div>
                             <img src={youtube_logo} className='threecircles-img-right youtube-logo-img' alt='The Youtube Logo'></img>
@@ -47,7 +47,7 @@ export default function NotableMilestones() {
                     <div className="principle-square-card the-milestone-one">
                         <div className='principle-content'>
                             <h3>Hand-off</h3>
-                            <p className='principle-desc'>Summarizing the complex project into a 30+ page, palatable story for our sponsor and other Googlers who are new to the project.</p>
+                            <p className='principle-desc'>Summarizing the complex project into a 40+ page, palatable story for our sponsor and other Googlers who are new to the project.</p>
                         </div>
                         <div>
                             <img src={googlelogo} className='google-img-right' alt='Google Logo'></img>
