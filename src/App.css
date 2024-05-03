@@ -261,7 +261,7 @@ h2 {
 }
 
 .features-box {
-    padding: 32px 72px;
+    padding: 32px 188px;
     background-color: #121212;
     display: flex;
     flex-direction: column;
@@ -391,7 +391,7 @@ h3 {
 .demo-container {
     display: flex;
     height: 80vh;
-    padding: 0 72px;
+    padding: 0 188px;
 }
 
 .demo-vid {
@@ -409,8 +409,8 @@ h3 {
     flex-direction: column;
     gap: 48px;
     padding-top: 72px;
-    padding-left: 72px;
-    padding-right: 72px;
+    padding-left: 188px;
+    padding-right: 188px;
 }
 
 .table-row {
@@ -420,7 +420,7 @@ h3 {
 }
 
 .row-desc {
-    font-size: 18px;
+    font-size: 14px;
     color: rgba(255, 255, 255, .7);
     font-weight: 300;
     flex: 2;
@@ -594,8 +594,8 @@ h3 {
 .team-profile-container {
     display: flex;
     padding-top: 100px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 188px;
+    padding-right: 188px;
     justify-content: center;
     gap: 16px;
 }
@@ -649,8 +649,8 @@ h3 {
 }
 
 .guiding-principles {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 188px;
+    padding-right: 188px;
 }
 .guiding-principles .intro-text {
     margin-bottom: 40px;
@@ -663,8 +663,8 @@ h3 {
 
 .principles-container {
     padding-top: 56px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 188px;
+    padding-right: 188px;
 }
 .principle-square-card {
     background-color: #242D46;
@@ -733,8 +733,8 @@ h3 {
 }
 
 .bonus-gallery-container {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 188px;
+    padding-right: 188px;
 }
 
 .bonus-gallery-row {
@@ -812,8 +812,8 @@ h3 {
 
 .three-features.milestone {
     padding-top: 56px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 188px;
+    padding-right: 188px;
 }
 
 .next-step-img-left {

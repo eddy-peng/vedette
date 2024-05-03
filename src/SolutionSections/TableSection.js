@@ -10,7 +10,7 @@ export default function TestTable() {
                     <p className='col-heading'>MEASURE</p>
                     <p className='col-heading-desc'>DESCRIPTION</p>
                     <p className='col-heading-vedette'>VEDETTE 1.0</p>
-                    <p className='col-heading'>HUMAN ANALYSTS</p>
+                    <p className='col-heading'>ANALYSTS</p>
                 </div>
                 <div className='table-row'>
                     <p className='row-title'>Inter-Rater Kappa (K)

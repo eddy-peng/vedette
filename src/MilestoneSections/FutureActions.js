@@ -24,7 +24,7 @@ export default function FutureActions() {
                     <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>ACTION 02</p>
-                            <h3>Utilization Of Android VRP Reports</h3>
+                            <h3>Utilization Of VRP Reports</h3>
                             <p className='feature-desc'>Though Vedette uses open-source Chromium reports for data, it can use Android reports after adjustments.</p>
                         </div>
                         <div>
@@ -34,7 +34,7 @@ export default function FutureActions() {
                     <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>ACTION 03</p>
-                            <h3>Usability Testing On Bug Reporters</h3>
+                            <h3>Bug Reporters Perspective</h3>
                             <p className='feature-desc'>Connecting with Bug Reporters is out of project scope. However, being the primary users of Vedette, it is a must.</p>
                         </div>
                         <div>
