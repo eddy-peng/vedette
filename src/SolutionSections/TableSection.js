@@ -13,50 +13,51 @@ export default function TestTable() {
                     <p className='col-heading'>ANALYSTS</p>
                 </div>
                 <div className='table-row'>
-                    <p className='row-title'>Inter-Rater Kappa (K)
-                        <span class="material-symbols-outlined help-icon" 
+                    <p className='row-title'>Inter-Rater Reliability
+                        {/* <span class="material-symbols-outlined help-icon" 
                                     title="INSERT TOOLTIP DETAILS">
                                     help 
-                        </span>
+                        </span> */}
                     </p>
-                    <p className='row-desc'>Potter ipsum wand elf parchment wingardium. again silver wand duel umbridge hair mistletoe.</p>
+                    <p className='row-desc'>
+                        Agreement between human analysts and Vedette in identifying bug report attributes. Value between -1 (no agreement) and 1 (perfect agreement). </p>
                     <p className='row-tester'> 0.40 </p>
                     <p className='row-tester-human'> 0.60 </p>
                 </div>
                 <hr className='table-line'></hr>
-                <div className='table-row'>
+                {/* <div className='table-row'>
                     <p className='row-title'>
-                        Consolidated Kappa (K) 
-                        <span class="material-symbols-outlined help-icon" 
+                        Overall Reliability */}
+                        {/* <span class="material-symbols-outlined help-icon" 
                             title="INSERT TOOLTIP DETAILS">
                             help 
-                        </span>
-                    </p>
+                        </span> */}
+                    {/* </p>
                     <p className='row-desc'>Potter ipsum wand elf parchment wingardium. again silver wand duel umbridge hair mistletoe.</p>
                     <p className='row-tester'> 0.40 </p>
                     <p className='row-tester-human'> 0.60 </p>
-                </div>
-                <hr className='table-line'></hr>
+                </div> */}
+                {/* <hr className='table-line'></hr> */}
                 <div className='table-row'>
-                    <p className='row-title'>Deduplication Accuracy 
-                        <span class="material-symbols-outlined help-icon" 
+                    <p className='row-title'>Deduplication Accuracy
+                        {/* <span class="material-symbols-outlined help-icon" 
                                 title="INSERT TOOLTIP DETAILS">
                                 help 
-                        </span>
+                        </span> */}
                     </p>
-                    <p className='row-desc'>Potter ipsum wand elf parchment wingardium. again silver wand duel umbridge hair mistletoe.</p>
+                    <p className='row-desc'>Accuracy dervied from a ratio of Vedette's identified dupliecate reports over confirmed duplicate bug reports triaged by Google security analysts.</p>
                     <p className='row-tester'> 0.40 </p>
                     <p className='row-tester-human'> N/A </p>
                 </div>
                 <hr className='table-line'></hr>
                 <div className='table-row'>
                     <p className='row-title'>Deduplication Speed
-                        <span class="material-symbols-outlined help-icon" 
+                        {/* <span class="material-symbols-outlined help-icon" 
                                 title="INSERT TOOLTIP DETAILS">
                                 help 
-                        </span>
+                        </span> */}
                     </p>
-                    <p className='row-desc'>Potter ipsum wand elf parchment wingardium. again silver wand duel umbridge hair mistletoe.</p>
+                    <p className='row-desc'>Average time to complete a duplicate status confirmation on an incoming bug report submission from the Vulnerability Rewards Program (VRP) platform.</p>
                     <p className='row-tester'> 3 Sec </p>
                     <p className='row-tester-human'> 3 Days </p>
                 </div>

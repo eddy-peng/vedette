@@ -416,7 +416,7 @@ h3 {
 .table-row {
     display: flex;
     align-items: flex-start;
-    gap: 140px;
+    gap: 32px;
 }
 
 .row-desc {
