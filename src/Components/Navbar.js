@@ -11,7 +11,8 @@ export default function NavBar() {
     return (
         <div className='navbar'>
             <Link className='banner-link' to='/solution'>Google Vedette</Link>
-            <div className='menu' onClick={() => {
+            {/* <div className='menu' onClick={() => { */}
+            <div className={`menu ${showMenu ? 'show' : ''}`} onClick={() => {
                 setShowMenu(!showMenu);
             }}>
                 <span></span>
