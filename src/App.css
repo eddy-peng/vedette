@@ -878,17 +878,19 @@ h3 {
     justify-content: space-between;
     width: 2.25rem;
     height: 2rem;
-
+    transition: background-color 0.3s ease;
 }
 
-.menu span {
-    height: 4px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 1);
-    transition: transform 0.3s, opacity 0.3s;
+.menu .material-symbols-outlined {
+    transition: ease-out .5s;
+    font-size: 32px;
+    text-align: center;
+    z-index: 1;
+    
 }
-
-
+.menu .show.material-symbols-outlined {
+    transition: ease-out .5s;
+}
 
 /* Phone Sized viewport breakpoint styles */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -897,6 +899,7 @@ h3 {
         position: absolute;
         top: 16px;
         left: 16px;
+        z-index: 1;
     }
 
     .menu {
@@ -909,40 +912,22 @@ h3 {
     }
 
     .primary-links {
-        display: none;
+        top: -100%;
+        transition: top .5s ease;
+        /* display: none; */
         flex-direction: column;
         background-color: #121212;
-        z-index: 1;
+        z-index: 0;
         width: 100vw;
         padding-bottom: 64px;
+        position: absolute;
     }
 
     .primary-links.show {
         display: flex;
         margin-top: 116px;
-
+        top: 0;
     }
-
-    .menu.show span:nth-child(1) {
-        transform-origin: right center;
-        /* transform-origin: center center; */
-        transform: rotate(-45deg);
-        /* opacity: 0; */
-    }
-    
-    .menu.show span:nth-child(2) {
-         /* transform-origin: center center; */
-        /* transform: rotate(-45deg); */
-opacity: 0;
-    }
-    
-    .menu.show span:nth-child(3) {
-        transform-origin: right center;
-          /* transform-origin: center center; */
-        transform: rotate(45deg);
-        opacity: 1;
-    } 
-
 
     html {
         margin-left: 24px;
@@ -1343,6 +1328,7 @@ opacity: 0;
         position: absolute;
         top: 16px;
         left: 16px;
+        z-index: 1;
     }
 
     .menu {
@@ -1354,7 +1340,7 @@ opacity: 0;
         background-color: #121212;
     }
 
-    .primary-links {
+    /* .primary-links {
         display: none;
         flex-direction: column;
         background-color: #121212;
@@ -1366,6 +1352,24 @@ opacity: 0;
     .primary-links.show {
         display: flex;
         margin-top: 116px;
+    } */
+    
+    .primary-links {
+        top: -100%;
+        transition: top .5s ease;
+        /* display: none; */
+        flex-direction: column;
+        background-color: #121212;
+        z-index: 0;
+        width: 100vw;
+        padding-bottom: 64px;
+        position: absolute;
+    }
+
+    .primary-links.show {
+        display: flex;
+        margin-top: 116px;
+        top: 0;
     }
     
     html {

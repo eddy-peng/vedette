@@ -12,12 +12,10 @@ export default function NavBar() {
         <div className='navbar'>
             <Link className='banner-link' to='/solution'>Google Vedette</Link>
             {/* <div className='menu' onClick={() => { */}
-            <div className={`menu ${showMenu ? 'show' : ''}`} onClick={() => {
-                setShowMenu(!showMenu);
-            }}>
-                <span></span>
-                <span></span>
-                <span></span>
+            <div className={`menu ${showMenu ? 'show' : ''}`} onClick={() => setShowMenu(!showMenu)}>
+                <div className="material-symbols-outlined">
+                    {showMenu ? "close" : "menu"}
+                </div>
             </div>
             {/* <div className='primary-links' > */}
             <div className={`primary-links ${showMenu ? 'show' : ''}`}>
