@@ -9,7 +9,7 @@ export default function TestTable() {
                 <div className='table-row'>
                     <p className='col-heading'>MEASURE</p>
                     <p className='col-heading-desc'>DESCRIPTION</p>
-                    <p className='col-heading-vedette'>VEDETTE 1.0</p>
+                    <p className='col-heading-vedette'>VEDETTE</p>
                     <p className='col-heading'>ANALYSTS</p>
                 </div>
                 <div className='table-row'>

@@ -11,7 +11,7 @@ export default function FutureActions() {
                 <p className='heading-caption'>Vedette shows great promise in further application within Google’s growing cybersecurity and AI space.</p>
             </div>
             <div className='three-features milestone'>
-                    <div className='feature-container-three feature-container-gradient'>
+                    <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>ACTION 01</p>
                             <h3>Chat GPT 4 Experimentation</h3>

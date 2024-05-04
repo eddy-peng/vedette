@@ -2024,14 +2024,15 @@ h3 {
     }
 }
 
+@media only screen and (min-width: 1680) and (max-width: 1979) {
+    
+}
+
 
 
 
 /* Large Desktop Sized viewport breakpoint styles */
 @media only screen and (min-width: 1980px) {
-    .page-section {
-        padding: 5% 20%;
-    }
 
     .threecircles-img-right {
         right: -320px;
