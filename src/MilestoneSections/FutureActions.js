@@ -14,7 +14,7 @@ export default function FutureActions() {
                     <div className='feature-container-three'>
                         <div className='feature-content'>
                             <p className='feature-num'>ACTION 01</p>
-                            <h3>Chat GPT 4 Experimentation</h3>
+                            <h3>Chat GPT 4 Integration</h3>
                             <p className='feature-desc'>Vedette uses Chat GPT 3.5 as its AI Model. Chat GPT 4 could be explored to compare effectiveness.</p>
                         </div>
                         <div>

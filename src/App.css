@@ -872,11 +872,11 @@ h3 {
 .menu {
     display: none;
     position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
+    top: 24px;
+    right: 24px;
     flex-direction: column;
     justify-content: space-between;
-    width: 2.25rem;
+    width: 2rem;
     height: 2rem;
     transition: background-color 0.3s ease;
 }
@@ -886,7 +886,7 @@ h3 {
     font-size: 32px;
     text-align: center;
     z-index: 1;
-    
+    cursor: pointer;
 }
 .menu .show.material-symbols-outlined {
     transition: ease-out .5s;
@@ -896,19 +896,22 @@ h3 {
 @media only screen and (min-width: 320px) and (max-width: 600px) {
 
     .banner-link {
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        z-index: 1;
+        position: fixed;
+        top: 24px;
+        left: 24px;
+        z-index: 2;
     }
 
     .menu {
         display: flex;
+        position: fixed;
+        z-index: 2;
     }
 
     .navbar {
         flex-direction: column;
-        background-color: #121212;
+        padding: 0px;
+        height: 80px;
     }
 
     .primary-links {
@@ -917,16 +920,29 @@ h3 {
         /* display: none; */
         flex-direction: column;
         background-color: #121212;
-        z-index: 0;
+        z-index: 1;
         width: 100vw;
         padding-bottom: 64px;
-        position: absolute;
+        position: fixed;
     }
 
     .primary-links.show {
         display: flex;
-        margin-top: 116px;
+        padding: 40% 0px;
         top: 0;
+        height: 100%;
+    }
+
+    .mobile-nav-bg {
+        /* background-color: red; */
+        -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+        backdrop-filter: blur(8px); /* Chrome and Opera */
+        box-shadow: inset 0 0 0 200px rgba(18, 18, 18, 0.8);
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        z-index: 2;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     html {
@@ -1325,51 +1341,55 @@ h3 {
 /* Tablet Sized viewport breakpoint styles */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .banner-link {
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        z-index: 1;
+        position: fixed;
+        top: 40px;
+        left: 40px;
+        z-index: 2;
     }
 
     .menu {
         display: flex;
+        position: fixed;
+        z-index: 2;
+        top: 40px;
+        right: 40px;
     }
 
     .navbar {
         flex-direction: column;
-        background-color: #121212;
+        padding: 0px;
+        height: 100px;
     }
 
-    /* .primary-links {
-        display: none;
-        flex-direction: column;
-        background-color: #121212;
-        z-index: 1;
-        width: 100vw;
-        padding-bottom: 64px;
-    }
-
-    .primary-links.show {
-        display: flex;
-        margin-top: 116px;
-    } */
-    
     .primary-links {
         top: -100%;
         transition: top .5s ease;
         /* display: none; */
         flex-direction: column;
         background-color: #121212;
-        z-index: 0;
+        z-index: 1;
         width: 100vw;
         padding-bottom: 64px;
-        position: absolute;
+        position: fixed;
     }
 
     .primary-links.show {
         display: flex;
-        margin-top: 116px;
+        padding: 40% 0px;
         top: 0;
+        height: 100%;
+    }
+
+    .mobile-nav-bg {
+        /* background-color: red; */
+        -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+        backdrop-filter: blur(8px); /* Chrome and Opera */
+        box-shadow: inset 0 0 0 200px rgba(18, 18, 18, 0.8);
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        z-index: 2;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     html {

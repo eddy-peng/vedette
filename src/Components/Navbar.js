@@ -10,14 +10,15 @@ export default function NavBar() {
 
     return (
         <div className='navbar'>
-            <Link className='banner-link' to='/solution'>Google Vedette</Link>
-            {/* <div className='menu' onClick={() => { */}
-            <div className={`menu ${showMenu ? 'show' : ''}`} onClick={() => setShowMenu(!showMenu)}>
-                <div className="material-symbols-outlined">
-                    {showMenu ? "close" : "menu"}
+
+            <div className="mobile-nav-bg">
+                <Link className='banner-link' to='/solution'>Google Vedette</Link>
+                <div className={`menu ${showMenu ? 'show' : ''}`} onClick={() => setShowMenu(!showMenu)}>
+                    <div className="material-symbols-outlined">
+                        {showMenu ? "close" : "menu"}
+                    </div>
                 </div>
             </div>
-            {/* <div className='primary-links' > */}
             <div className={`primary-links ${showMenu ? 'show' : ''}`}>
                 <Link className='nav-link' to='/solution' onClick={handleLinkClick}>Solution</Link>
                 <Link className='nav-link' to='/team' onClick={handleLinkClick}>Team</Link>
