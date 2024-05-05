@@ -496,8 +496,8 @@ h3 {
 .faqs {
     min-height: 100vh;
     max-height: 300vh;
+    height: auto;
     padding: 56px 300px 0px 300px;
-    align-content: center;
     padding-top: 180px;
 }
 
@@ -1534,11 +1534,11 @@ h3 {
     /* FAQs */
     .faqs {
         padding: 0px;
+        overflow: hidden;
     }
     .faqs h2 {
         text-align: center;
         font-size: 28px;
-        overflow: hidden;
     }
     .question {
         padding: 20px;
