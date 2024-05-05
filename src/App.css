@@ -1098,6 +1098,9 @@ h3 {
         border-radius: 8px;
         margin-bottom: 12px;
     }
+    .question:hover {
+        background-image: linear-gradient(to right, #2F3F68, #1E2A4B);
+    }
     .question header h4 {
         font-size: 14px;
         font-weight: normal;
@@ -1538,6 +1541,9 @@ h3 {
     .question {
         padding: 20px;
         border-radius: 8px;
+    }
+    .question:hover {
+        background-image: linear-gradient(to right, #2F3F68, #1E2A4B);
     }
     .question header h4 {
         font-size: 14px;
