@@ -7,6 +7,11 @@ import FeatureFiveImg from '../images/Feature_5.svg';
 import FeatureSixImg from '../images/Feature_6.svg';
 
 export default function Features() {
+
+    const openPDF = () => {
+        window.open(`${process.env.PUBLIC_URL}/SimilarityScoreDocumentation.pdf`, '_blank');
+    };
+
     return (
         <section className='page-section' id='features'>
             <h2>
@@ -51,7 +56,7 @@ export default function Features() {
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 04</p>
                             <h3>Score Guide</h3>
-                            <p className='feature-desc'>Bug Reporters are provided a detailed breakdown of how Vedette calculates similarity scores.</p>
+                            <p className='feature-desc'>Bug Reporters are provided a detailed breakdown of how Vedette calculates <span className="pdfNewLink" onClick={openPDF}>similarity scores</span>.</p>
                         </div>
                         <div>
                             <img src={FeatureFourImg} className='feature-four-img' alt='Vedette score guide screenshot'></img>
