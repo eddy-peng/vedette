@@ -504,8 +504,8 @@ h3 {
 
 /* FAQs Section Styles */
 .faqs {
-    min-height: 100vh;
-    max-height: 300vh;
+    /* min-height: 100vh;
+    max-height: 300vh; */
     height: auto;
     padding: 56px 300px 0px 300px;
     padding-top: 180px;
@@ -2135,8 +2135,27 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 1680) and (max-width: 1979) {
-    
+@media only screen and (min-width: 1700px) and (max-width: 1979px) {
+    .navbar {
+        padding: 0px 188px;
+    }
+    .features-box, .table-container, .faqs, .final-cta, .principles-container, .campus-visit .img-container, .bonus-gallery-container, .three-features.milestone {
+        padding-right: 340px;
+        padding-left: 340px;
+    }
+    .heading-caption {
+        padding: 32px 400px;
+    }
+    .feature-container {
+        padding: 48px;
+    }
+    .demo-container {
+        padding: 0 340px;
+        height: 60vh;
+    }
+    .footer {
+        padding: 0px 188px;
+    }
 }
 
 
@@ -2145,7 +2164,29 @@ h3 {
 /* Large Desktop Sized viewport breakpoint styles */
 @media only screen and (min-width: 1980px) {
 
-    .threecircles-img-right {
+    .navbar {
+        padding: 0px 200px;
+    }
+    .features-box, .table-container, .faqs, .final-cta, .principles-container, .campus-visit .img-container, .bonus-gallery-container, .three-features.milestone {
+        padding-right: 400px;
+        padding-left: 400px;
+    }
+    .heading-caption {
+        padding: 32px 500px;
+    }
+    .feature-container {
+        padding: 60px;
+    }
+    .demo-container {
+        padding: 0 340px;
+        height: 60vh;
+    }
+    .footer {
+        padding: 0px 200px;
+    }
+
+    /* PROB DON'T NEED BUT WILL KEEP COMMENTED FOR NOW */
+    /* .threecircles-img-right {
         right: -320px;
         bottom: 240px;
     }
@@ -2160,13 +2201,7 @@ h3 {
         bottom: 40px;
     }
 
-    .faqs {
-        padding: 0 20%;
-        padding-top: 180px;
-    }
-
     .campus-visit-img {
-        scale: 1.5;
         padding: 32px 0px 64px 0px;
     }
 
@@ -2174,10 +2209,10 @@ h3 {
         display: flex;
         flex-direction: column;
         gap: 32px;
-    }
+    } */
 
     /* Milestones */
-    .prompt-engineering-img {
+    /* .prompt-engineering-img {
         bottom: 0px;
     }
     .vedette-icon-img {
@@ -2189,5 +2224,5 @@ h3 {
         bottom: 0;
         left: 250px;
         width: 70%;
-    }
+    } */
 }
