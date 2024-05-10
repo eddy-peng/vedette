@@ -47,7 +47,7 @@ export default function TestTable() {
                     </p>
                     <p className='row-desc'>Accuracy dervied from a ratio of Vedette's identified dupliecate reports over confirmed duplicate bug reports triaged by Google security analysts.</p>
                     <p className='row-tester'> 30% </p>
-                    <p className='row-tester-human'> N/A </p>
+                    <p className='row-tester-human'> — </p>
                 </div>
                 <hr className='table-line'></hr>
                 <div className='table-row'>
