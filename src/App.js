@@ -18,21 +18,23 @@ function App() {
   }, [pathname]);
 
   return (
-    <div>
-      {/* Navbar */}
-      <NavBar />
-      {/* Page routes */}
-      <Routes>
-        <Route index element={<SolutionPage />} />
-        <Route path='solution' element={<SolutionPage />} />
-        <Route path='team' element={<TeamPage />} />
-        <Route path='milestones' element={<MilestonePage />} />
-      </Routes>
+    <>
+      <div>
+          {/* Navbar */}
+          <NavBar />
+          {/* Page routes */}
+          <Routes>
+            <Route index element={<SolutionPage />} />
+            <Route path='solution' element={<SolutionPage />} />
+            <Route path='team' element={<TeamPage />} />
+            <Route path='milestones' element={<MilestonePage />} />
+          </Routes>
 
-      {/* Footer */}
-      <Footer />
-      <Analytics />
-    </div>
+          {/* Footer */}
+          <Footer />
+        </div>
+        <Analytics />
+    </>
   );
 }
 
