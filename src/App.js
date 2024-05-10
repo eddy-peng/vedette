@@ -7,6 +7,7 @@ import SolutionPage from './SolutionPage';
 import TeamPage from './TeamPage';
 import MilestonePage from './MilestonePage';
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ function App() {
 
       {/* Footer */}
       <Footer />
+      <Analytics />
     </div>
   );
 }

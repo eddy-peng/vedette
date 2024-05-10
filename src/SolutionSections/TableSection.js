@@ -21,8 +21,8 @@ export default function TestTable() {
                     </p>
                     <p className='row-desc'>
                         Agreement between human analysts and Vedette in identifying bug report attributes. Value between -1 (no agreement) and 1 (perfect agreement). </p>
-                    <p className='row-tester'> 0.40 </p>
-                    <p className='row-tester-human'> 0.60 </p>
+                    <p className='row-tester'> 0.34 </p>
+                    <p className='row-tester-human'> — </p>
                 </div>
                 <hr className='table-line'></hr>
                 {/* <div className='table-row'>
@@ -46,7 +46,7 @@ export default function TestTable() {
                         </span> */}
                     </p>
                     <p className='row-desc'>Accuracy dervied from a ratio of Vedette's identified dupliecate reports over confirmed duplicate bug reports triaged by Google security analysts.</p>
-                    <p className='row-tester'> 0.40 </p>
+                    <p className='row-tester'> 30% </p>
                     <p className='row-tester-human'> N/A </p>
                 </div>
                 <hr className='table-line'></hr>
