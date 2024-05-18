@@ -23,7 +23,7 @@ export default function NavBar() {
                 <Link className='nav-link' to='/solution' onClick={handleLinkClick}>Solution</Link>
                 <Link className='nav-link' to='/team' onClick={handleLinkClick}>Team</Link>
                 <Link className='nav-link' to='/milestones' onClick={handleLinkClick}>Milestones</Link>
-                <a className='primary-button nav-button-mods' href="https://youtu.be/lXVBjWtMLxo" target="_blank" rel="noopener noreferrer">VIEW DEMO</a>
+                <a className='primary-button nav-button-mods' href="https://vedette-demo.vercel.app/" target="_blank" rel="noopener noreferrer">VIEW DEMO</a>
             </div>
         </div>
     )
