@@ -5,12 +5,12 @@ export default function MilestoneCards() {
         <section className='page-section'>
             <div>
                 <h2>Project Vedette's <span className='text-gradient spacer'>Milestones</span></h2>
-                <p className='heading-caption'>The creation of Vedette was a an entertaining ride. From calm waters to rough seas, Vedette and the team overcame all challenges with perseverance and dedication. This log serves as a record.</p>
+                <p className='heading-caption'>The creation of Vedette was an entertaining ride. From calm waters to rough seas, Vedette and the team overcame all challenges with perseverance and dedication. This log serves as a record.</p>
             </div>
             <div className='milestones-parent-conainter'>
                 <div className='milestone-container'>
                     <div className='milestone-card'>
-                        <p className='milestone-value'>16</p>
+                        <p className='milestone-value'>23</p>
                         <p className='milestone-name'>Weeks</p>
                     </div>
                     <div className='milestone-card'>

@@ -4,7 +4,7 @@ export default function TestTable() {
     return (
         <section className='page-section efficacy-table'>
             <h2>Vedette 1.0 Reliability</h2>
-            <p className='heading-caption'>Championing continues learning, Vedette has proven to have high reliability compared to human attribute analysis.</p>
+            <p className='heading-caption'>Championing continuous learning, Vedette has proven to have high reliability compared to human attribute analysis.</p>
             <div className='table-container'>
                 <div className='table-row'>
                     <p className='col-heading'>MEASURE</p>
@@ -19,8 +19,7 @@ export default function TestTable() {
                                     help 
                         </span> */}
                     </p>
-                    <p className='row-desc'>
-                        Agreement between human analysts and Vedette in identifying bug report attributes. Value between -1 (no agreement) and 1 (perfect agreement). </p>
+                    <p className='row-desc'>Agreement between human analysts and Vedette in identifying bug report attributes. A value between -1 (no agreement) and 1 (perfect agreement).</p>
                     <p className='row-tester'> 0.34 </p>
                     <p className='row-tester-human'> — </p>
                 </div>
@@ -45,8 +44,8 @@ export default function TestTable() {
                                 help 
                         </span> */}
                     </p>
-                    <p className='row-desc'>Accuracy dervied from a ratio of Vedette's identified dupliecate reports over confirmed duplicate bug reports triaged by Google security analysts.</p>
-                    <p className='row-tester'> 30% </p>
+                    <p className='row-desc'>Accuracy derived from a ratio of Vedette's identified duplicate reports over confirmed duplicate bug reports triaged by Google security analysts.</p>
+                    <p className='row-tester'> 40% </p>
                     <p className='row-tester-human'> — </p>
                 </div>
                 <hr className='table-line'></hr>
@@ -58,8 +57,8 @@ export default function TestTable() {
                         </span> */}
                     </p>
                     <p className='row-desc'>Average time to complete a duplicate status confirmation on an incoming bug report submission from the Vulnerability Rewards Program (VRP) platform.</p>
-                    <p className='row-tester'> 3 Sec </p>
-                    <p className='row-tester-human'> 3 Days </p>
+                    <p className='row-tester'> ~2.6 Sec </p>
+                    <p className='row-tester-human'> 37.64 Days </p>
                 </div>
                 <hr className='table-line'></hr>
             </div>

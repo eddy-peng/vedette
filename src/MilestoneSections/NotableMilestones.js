@@ -25,7 +25,7 @@ export default function NotableMilestones() {
                     <div className="principle-rectangle-card">
                         <div className='principle-content principle-width-limit'>
                             <h3>MVP Video Demo</h3>
-                            <p className='principle-desc'>Voiced by ElevenLabs’s AI voiceover software, the mvp demo video was meticulously edited, resulting in heads being turned during the capstone dry-run and internally at Google.</p>
+                            <p className='principle-desc'>Voiced by ElevenLabs’s AI voiceover software, the MVP demo video was meticulously edited, resulting in heads being turned during the capstone dry-run and internally at Google.</p>
                             <br/>
                             <a href='https://youtu.be/lXVBjWtMLxo' target="_blank" rel="noopener noreferrer">Watch Now</a>
                         </div>

@@ -74,7 +74,7 @@ export default function TeamIntroSection() {
                 <div className="team-profile">
                     <img src={celebrity} alt='Kyle Raychel headshot'></img>
                     <h4>Kyle Raychel</h4>
-                    <p>Back-end Engineer</p>
+                    <p>Back-End Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                             <a href='https://www.linkedin.com/in/kyle-raychel/' target="_blank" rel="noopener noreferrer">
@@ -91,7 +91,7 @@ export default function TeamIntroSection() {
                 <div className="team-profile">
                     <img src={hman} alt='Harold Pham headshot'></img>
                     <h4>Harold Pham</h4>
-                    <p>Back-end Engineer</p>
+                    <p>Back-End Engineer</p>
                     <div className="icon-container">
                         <div className="social-icons">
                         <a href='https://www.linkedin.com/in/harold-pham-60b201177/' target="_blank" rel="noopener noreferrer">

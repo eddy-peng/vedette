@@ -27,7 +27,7 @@ export default function GuidingPrinciplesSection() {
                     <div className="principle-rectangle-card">
                         <div className='principle-content'>
                             <h3>Cybersecurity AI Principles</h3>
-                            <p className='principle-desc'>A collection of AI principles within the cybersecurity space were identified from established literature. These principles, including collaboration, human oversight, and explainability are core to Vedette.</p>
+                            <p className='principle-desc'>A collection of AI principles within the cybersecurity space was identified from established literature. These principles, including collaboration, human oversight, and explainability are core to Vedette.</p>
                             <br/>
                             <a href='https://journal.iberamia.org/index.php/intartif/article/view/1267/209' target="_blank" rel="noopener noreferrer">Learn More</a>
                         </div>

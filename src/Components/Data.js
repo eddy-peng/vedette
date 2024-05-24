@@ -1,13 +1,13 @@
 const questions = [
     {
       id: 1,
-      title: "How is Vedette deduplicating report content in real time?",
+      title: "How is Vedette deduplicating report content in real-time?",
       info: "Vedette employs a dynamic real-time deduplication process to ensure efficiency and accuracy in bug resolution. It meticulously tracks every input in the bug report form, including details like attack vector, memory access type, and exploit type. Then, it compares this input against a vast database of historically submitted bug reports, analyzing similarities across various attributes. Using advanced algorithms, Vedette calculates similarity percentages, providing you with instant feedback on how closely your report aligns with previously documented issues. By leveraging this real-time deduplication process, Vedette empowers you to identify potential duplicates efficiently, ultimately streamlining your bug resolution workflow.",
     },
     {
       id: 2,
       title: "What role do bug hunters play in automated deduplication?",
-      info: "Bug hunters play a crucial role in the deduplication process within Vedette. As active contributors to the bug reporting ecosystem, bug hunters provide unique insights and firsthand experiences of encountering software issues. Their reports often serve as valuable data points for Vedette's deduplication algorithms. By submitting detailed bug reports, bug hunters contribute to the expansion and refinement of Vedette's database, enhancing its ability to accurately identify duplicate issues. Additionally, bug hunters may also benefit from Vedette's deduplication capabilities by receiving prompt feedback on the similarity of their reports to previously documented issues, enabling them to focus their efforts on identifying and reporting new, unique bugs. Ultimately, bug hunters and Vedette work in tandem to streamline the bug resolution process and improve the overall quality of software development projects.",
+      info: "Bug hunters play a crucial role in the deduplication process within Vedette. As active contributors to the bug-reporting ecosystem, bug hunters provide unique insights and firsthand experiences of encountering software issues. Their reports often serve as valuable data points for Vedette's deduplication algorithms. By submitting detailed bug reports, bug hunters contribute to the expansion and refinement of Vedette's database, enhancing its ability to accurately identify duplicate issues. Additionally, bug hunters may also benefit from Vedette's deduplication capabilities by receiving prompt feedback on the similarity of their reports to previously documented issues, enabling them to focus their efforts on identifying and reporting new, unique bugs. Ultimately, bug hunters and Vedette work in tandem to streamline the bug resolution process and improve the overall quality of software development projects.",
     },
     {
       id: 3,
@@ -16,8 +16,8 @@ const questions = [
     },
     {
       id: 4,
-      title: "Are there safeguards in place to ensure security of Vedette?",
-      info: "Security is a top priority for us, and Vedette is built with several safeguards to protect the confidentiality, integrity, and availability of data. These safeguards include stringent access controls to restrict access to authorized personnel only and following best practices in code to ensure security. Additionally, Vedette is hosted on secure, reliable infrastructure to ensure high availability and uptime. These measures work together to provide a secure environment for Vedette, giving users confidence in the protection of data.",
+      title: "Are there safeguards in place to ensure the security of Vedette?",
+      info: "Security is a top priority for us, and Vedette is built with several safeguards to protect the confidentiality, integrity, and availability of data. These safeguards include stringent access controls to restrict access to authorized personnel only and following best practices in code to ensure security. Additionally, Vedette is hosted on a secure, reliable infrastructure to ensure high availability and uptime. These measures work together to provide a secure environment for Vedette, giving users confidence in the protection of data.",
     },
     {
       id: 5,

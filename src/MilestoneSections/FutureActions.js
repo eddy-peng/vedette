@@ -35,7 +35,7 @@ export default function FutureActions() {
                         <div className='feature-content'>
                             <p className='feature-num'>ACTION 03</p>
                             <h3>Bug Reporters Perspective</h3>
-                            <p className='feature-desc'>Connecting with Bug Reporters is out of project scope. However, being the primary users of Vedette, it is a must.</p>
+                            <p className='feature-desc'>Connecting with Bug Reporters is out of the project scope. However, being the primary users of Vedette, it is a must.</p>
                         </div>
                         <div>
                             <img src={VRPImg} className='next-step-img-right' alt='Geometric illustration'></img>

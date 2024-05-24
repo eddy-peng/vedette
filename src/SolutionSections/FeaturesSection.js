@@ -17,7 +17,7 @@ export default function Features() {
             <h2>
                 The Capabilities Of Vedette
             </h2>
-            <p className='heading-caption'>Integrating AI into the Vulnerability Reward Program’s bug reporting form</p>
+            <p className='heading-caption'>Vedette integrates AI into the Vulnerability Reward Program’s bug-reporting form by adding six features.</p>
             <div className='features-box'>
                 <div className='feature-container feature-container-gradient'>
                     <div className='feature-content'>
@@ -43,7 +43,7 @@ export default function Features() {
                     <div className='feature-container-two'>
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 03</p>
-                            <h3>Receive dynamic content similarity updates in real time </h3>
+                            <h3>Receive dynamic content similarity updates in real-time </h3>
                             <p className='feature-desc'>Bug Reporters are notified whenever their report passes a similarity threshold, prompting them to learn more about why their report may be a duplicate.</p>
                         </div>
                         <div className='feature-img-three'>
@@ -76,7 +76,7 @@ export default function Features() {
                         <div className='feature-content'>
                             <p className='feature-num'>FEATURE 06</p>
                             <h3>Progress Upgrades</h3>
-                            <p className='feature-desc'>Bug Reporters receive field to field similarity scores integrated in the side bar for deeper insights.</p>
+                            <p className='feature-desc'>Bug Reporters receive field-to-field similarity scores integrated into the sidebar for deeper insights.</p>
                         </div>
                         <div>
                         <img src={FeatureSixImg} className='feature-img-center feature-six-img' alt='VRP progress bar UI'></img>
