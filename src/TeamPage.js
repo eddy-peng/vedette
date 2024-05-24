@@ -3,13 +3,13 @@ import TeamIntroSection from './TeamSections/TeamIntroSection';
 import CampusVisitSection from './TeamSections/CampusVisitSection';
 import GuidingPrinciplesSection from './TeamSections/GuidingPrinciplesSection';
 import BonusTeamPhotos from './TeamSections/BonusTeamPhotos';
-import Roles from './TeamSections/Roles';
+import Spotlight from './TeamSections/Spotlight';
 
 export default function TeamPage() {
     return (
         <div>
             <TeamIntroSection />
-            <Roles />
+            <Spotlight />
             <GuidingPrinciplesSection />
             <CampusVisitSection />
             <BonusTeamPhotos />

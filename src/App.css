@@ -759,7 +759,7 @@ h3 {
     width: 100%;
     border-radius: 16px;
 }
-.bonus-img-and-caption p {
+.bonus-img-and-caption p, .woah-its-greg p {
     padding-top: 14px;
 }
 
@@ -902,6 +902,9 @@ h3 {
 }
 .menu .show.material-symbols-outlined {
     transition: ease-out .5s;
+}
+.woah-its-greg {
+    text-align: center;
 }
 
 /* Phone Sized viewport breakpoint styles */
@@ -1291,7 +1294,7 @@ h3 {
     .bonus-img-and-caption img {
         margin-top: 12px;
     }
-    .bonus-img-and-caption p {
+    .bonus-img-and-caption p, .woah-its-greg p {
         padding-top: 12px;
         padding-bottom: 24px;
         display: block;
@@ -1737,7 +1740,7 @@ h3 {
     .bonus-img-and-caption img {
         margin-top: 12px;
     }
-    .bonus-img-and-caption p {
+    .bonus-img-and-caption p, .woah-its-greg p {
         padding-top: 12px;
         padding-bottom: 24px;
         display: block;
