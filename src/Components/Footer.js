@@ -5,7 +5,7 @@ export default function Footer() {
         <div className='footer'>
             <div className="footer-container">
                 {/* Replace link when project is published on iSchool capstone website */}
-                <a className='footer-link' href="https://ischool.uw.edu/capstone/projects" target="_blank" rel="noopener noreferrer">Google x iSchool 2024</a>
+                <a className='footer-link' href="https://ischool.uw.edu/capstone/projects/2024/vedette-streamlining-bug-report-deduplication-googles-android-security" target="_blank" rel="noopener noreferrer">Google x iSchool 2024</a>
                 <div className='primary-links'>
                     <Link className='footer-link' to='/solution'>Solution</Link>
                     <Link className='footer-link' to='/team'>Team</Link>
