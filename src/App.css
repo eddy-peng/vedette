@@ -184,13 +184,17 @@ h1 {
     text-align: center;
 }
 
-.prob-svg {
+.prob-svg, .omgomgomg {
     border: 4px solid;
     background-image: linear-gradient(to right, #4285F4, #D6C8FF);
     border-radius: 10px;
     border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
     margin: 64px 0;
     box-shadow: 0px 0px 80px rgba(35, 43, 67, 1);
+}
+
+.omgomgomg {
+    margin: 0px 0;
 }
 
 /* Challenges Section Styles */
@@ -776,6 +780,7 @@ h3 {
     flex-direction: column;
     gap: 24px;
     padding-top: 56px;
+    padding-bottom: 24px;
 }
 
 .milestone-container {
@@ -821,6 +826,16 @@ h3 {
 .the-milestone-one .google-img-right {
     bottom: 0px;
 }
+
+.heading-caption a {
+    color: rgba(255, 255, 255, .7);
+}
+
+.heading-caption a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 
 .three-features.milestone {
     padding-top: 56px;
@@ -1004,7 +1019,7 @@ h3 {
         font-size: 14px;
         padding: 12px 20px; 
     }
-    .prob-svg {
+    .prob-svg, .omgomgomg {
         width: 100%;
         border: 2px solid;
         border-radius: 4px;
@@ -1012,6 +1027,10 @@ h3 {
         border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
         margin: 32px 0;
         box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    .omgomgomg {
+        margin: 0px 0;
     }
 
     /* Challenges */
@@ -1308,6 +1327,7 @@ h3 {
     .milestones-parent-conainter {
         flex-direction: row;
         padding-top: 24px;
+        padding-bottom: 24px;
         overflow-x: auto;
     }
     
@@ -1472,7 +1492,7 @@ h3 {
         font-size: 14px;
         padding: 12px 20px; 
     }
-    .prob-svg {
+    .prob-svg, .omgomgomg {
         width: 100%;
         border: 2px solid;
         border-radius: 8px;
@@ -1480,6 +1500,10 @@ h3 {
         border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
         margin: 32px 0;
         box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    .omgomgomg {
+        margin: 0px 0;
     }
 
     /* Challenges */
@@ -1754,6 +1778,7 @@ h3 {
     .milestones-parent-conainter {
         flex-direction: row;
         padding-top: 24px;
+        padding-bottom: 24px;
         overflow-x: auto;
     }
     
@@ -1857,7 +1882,7 @@ h3 {
         font-size: 16px;
         padding: 14px 24px; 
     }
-    .prob-svg {
+    .prob-svg, .omgomgomg {
         width: 100%;
         border: 4px solid;
         border-radius: 8px;
@@ -1865,6 +1890,10 @@ h3 {
         border-image: linear-gradient(45deg, #4285F4, #D6C8FF) 1;
         margin: 32px 0;
         box-shadow: 0px 0px 40px rgba(35, 43, 67, 1);
+    }
+
+    .omgomgomg {
+        margin: 0px 0;
     }
 
     /* Challenges */
@@ -2072,6 +2101,7 @@ h3 {
 
     .milestones-parent-conainter {
         padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .milestone-card {
