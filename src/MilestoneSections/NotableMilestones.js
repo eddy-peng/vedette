@@ -8,7 +8,7 @@ export default function NotableMilestones() {
     return (
         <section className='page-section'>
             <div>
-                <h2>Notable Milestones</h2>
+                <h2>Project Milestones</h2>
                 <p className='heading-caption'>The Vedette team has several memorable moments during the agile development process. Here are a few!</p>
             </div>
             <div className="principles-container">
