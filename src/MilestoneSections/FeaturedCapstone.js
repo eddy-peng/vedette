@@ -1,5 +1,5 @@
 import React from 'react';
-import frontpage from'../images/frontpage.png';
+import frontpage from'../images/frontpage.jpg';
 
 export default function FeaturedCapstone() {
     return (
